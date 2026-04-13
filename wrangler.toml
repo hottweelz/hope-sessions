@@ -1,0 +1,6 @@
+name = "hope-sessions"
+compatibility_date = "2026-04-13"
+
+# Cloudflare Pages — static output directory
+# No build command needed: the site is plain HTML/CSS/JS
+pages_build_output_dir = "./site/hope-sessions"
