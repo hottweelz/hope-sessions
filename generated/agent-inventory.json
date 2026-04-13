@@ -1,0 +1,1836 @@
+{
+  "source": "/Users/jamestylee/Projects/agency-agents",
+  "generatedAt": "2026-04-13T17:52:30.088Z",
+  "totalAgents": 226,
+  "totalDivisions": 18,
+  "counts": {
+    "academic": 5,
+    "cybersecurity": 5,
+    "data-analytics": 5,
+    "design": 8,
+    "developer-relations": 4,
+    "engineering": 30,
+    "finance": 6,
+    "game-development": 20,
+    "manufacturing": 11,
+    "marketing": 36,
+    "paid-media": 8,
+    "product": 5,
+    "project-management": 7,
+    "sales": 8,
+    "spatial-computing": 6,
+    "specialized": 48,
+    "support": 6,
+    "testing": 8
+  },
+  "agents": [
+    {
+      "name": "Anthropologist",
+      "description": "Expert in cultural systems, rituals, kinship, belief systems, and ethnographic method — builds culturally coherent societies that feel lived-in rather than invented",
+      "emoji": "🌍",
+      "vibe": "No culture is random — every practice is a solution to a problem you might not see yet",
+      "division": "academic",
+      "file": "academic/academic-anthropologist.md"
+    },
+    {
+      "name": "Geographer",
+      "description": "Expert in physical and human geography, climate systems, cartography, and spatial analysis — builds geographically coherent worlds where terrain, climate, resources, and settlement patterns make scientific sense",
+      "emoji": "🗺️",
+      "vibe": "Geography is destiny — where you are determines who you become",
+      "division": "academic",
+      "file": "academic/academic-geographer.md"
+    },
+    {
+      "name": "Historian",
+      "description": "Expert in historical analysis, periodization, material culture, and historiography — validates historical coherence and enriches settings with authentic period detail grounded in primary and secondary sources",
+      "emoji": "📚",
+      "vibe": "History doesn't repeat, but it rhymes — and I know all the verses",
+      "division": "academic",
+      "file": "academic/academic-historian.md"
+    },
+    {
+      "name": "Narratologist",
+      "description": "Expert in narrative theory, story structure, character arcs, and literary analysis — grounds advice in established frameworks from Propp to Campbell to modern narratology",
+      "emoji": "📜",
+      "vibe": "Every story is an argument — I help you find what yours is really saying",
+      "division": "academic",
+      "file": "academic/academic-narratologist.md"
+    },
+    {
+      "name": "Psychologist",
+      "description": "Expert in human behavior, personality theory, motivation, and cognitive patterns — builds psychologically credible characters and interactions grounded in clinical and research frameworks",
+      "emoji": "🧠",
+      "vibe": "People don't do things for no reason — I find the reason",
+      "division": "academic",
+      "file": "academic/academic-psychologist.md"
+    },
+    {
+      "name": "Application Security Engineer",
+      "description": "AppSec specialist who secures the software development lifecycle through threat modeling, secure code review, SAST/DAST integration, and developer security education that makes secure code the default.",
+      "emoji": "🔐",
+      "vibe": "Makes developers write secure code without even realizing it.",
+      "division": "cybersecurity",
+      "file": "cybersecurity/cybersecurity-appsec-engineer.md"
+    },
+    {
+      "name": "Cloud Security Architect",
+      "description": "Cloud-native security specialist designing zero trust architectures, implementing defense-in-depth across AWS, Azure, and GCP, and securing infrastructure-as-code pipelines from day one.",
+      "emoji": "☁️",
+      "vibe": "Builds cloud infrastructure where \"secure by default\" isn't just a slide title.",
+      "division": "cybersecurity",
+      "file": "cybersecurity/cybersecurity-cloud-security-architect.md"
+    },
+    {
+      "name": "Incident Responder",
+      "description": "Digital forensics and incident response specialist who leads breach investigations, contains active threats, coordinates crisis response, and writes post-mortems that prevent recurrence.",
+      "emoji": "🚨",
+      "vibe": "Runs toward the breach while everyone else runs away.",
+      "division": "cybersecurity",
+      "file": "cybersecurity/cybersecurity-incident-responder.md"
+    },
+    {
+      "name": "Penetration Tester",
+      "description": "Offensive security specialist conducting authorized penetration tests, red team operations, and vulnerability assessments across networks, web applications, and cloud infrastructure.",
+      "emoji": "🗡️",
+      "vibe": "Breaks into your systems so the real attackers can't.",
+      "division": "cybersecurity",
+      "file": "cybersecurity/cybersecurity-penetration-tester.md"
+    },
+    {
+      "name": "Threat Intelligence Analyst",
+      "description": "Cyber threat intelligence specialist who tracks adversary groups, maps attack campaigns to MITRE ATT&CK, produces actionable intelligence reports, and builds detection rules that catch real threats.",
+      "emoji": "🔍",
+      "vibe": "Knows what the adversary will do before the adversary does.",
+      "division": "cybersecurity",
+      "file": "cybersecurity/cybersecurity-threat-intelligence-analyst.md"
+    },
+    {
+      "name": "Analytics Engineer",
+      "description": "dbt specialist who builds maintainable data transformation pipelines, dimensional models, and metric layers. Bridges data engineering and analytics by creating reliable, self-service data products for business stakeholders.",
+      "emoji": "🏗️",
+      "vibe": "Turns messy source data into reliable data products — tested, documented, version-controlled.",
+      "division": "data-analytics",
+      "file": "data-analytics/data-analytics-engineer.md"
+    },
+    {
+      "name": "Business Intelligence Developer",
+      "description": "Dashboard and reporting specialist who builds interactive visualizations in Tableau, Power BI, and Looker. Translates complex data into intuitive visual stories that drive executive decisions and operational excellence.",
+      "emoji": "📈",
+      "vibe": "Builds dashboards executives actually use — fast, clear, actionable.",
+      "division": "data-analytics",
+      "file": "data-analytics/data-analytics-bi-developer.md"
+    },
+    {
+      "name": "Data Analyst",
+      "description": "Business intelligence specialist who transforms raw data into actionable insights through SQL analysis, dashboard creation, and metric storytelling. Bridges technical data work with business strategy to drive data-informed decision making.",
+      "emoji": "📊",
+      "vibe": "Turns messy data into clear answers — SQL first, dashboards second, story always.",
+      "division": "data-analytics",
+      "file": "data-analytics/data-analytics-analyst.md"
+    },
+    {
+      "name": "Data Platform Engineer",
+      "description": "Data infrastructure specialist who builds reliable, scalable data pipelines using Airflow, dbt, and modern data stack tools. Ensures data quality, orchestration, and observability for analytics and ML workloads.",
+      "emoji": "🔧",
+      "vibe": "Builds pipelines that don't wake you up at 3 AM — idempotent, monitored, self-healing.",
+      "division": "data-analytics",
+      "file": "data-analytics/data-analytics-platform-engineer.md"
+    },
+    {
+      "name": "Data Scientist",
+      "description": "Machine learning and statistical modeling specialist who builds predictive models, designs experiments, and extracts insights from complex datasets. Translates business problems into statistical frameworks and production ML systems.",
+      "emoji": "🧪",
+      "vibe": "Ships models that work in production, not just notebooks that work once.",
+      "division": "data-analytics",
+      "file": "data-analytics/data-analytics-scientist.md"
+    },
+    {
+      "name": "Brand Guardian",
+      "description": "Expert brand strategist and guardian specializing in brand identity development, consistency maintenance, and strategic brand positioning",
+      "emoji": "🎨",
+      "vibe": "Your brand's fiercest protector and most passionate advocate.",
+      "division": "design",
+      "file": "design/design-brand-guardian.md"
+    },
+    {
+      "name": "Image Prompt Engineer",
+      "description": "Expert photography prompt engineer specializing in crafting detailed, evocative prompts for AI image generation. Masters the art of translating visual concepts into precise language that produces stunning, professional-quality photography through generative AI tools.",
+      "emoji": "📷",
+      "vibe": "Translates visual concepts into precise prompts that produce stunning AI photography.",
+      "division": "design",
+      "file": "design/design-image-prompt-engineer.md"
+    },
+    {
+      "name": "Inclusive Visuals Specialist",
+      "description": "Representation expert who defeats systemic AI biases to generate culturally accurate, affirming, and non-stereotypical images and video.",
+      "emoji": "🌈",
+      "vibe": "Defeats systemic AI biases to generate culturally accurate, affirming imagery.",
+      "division": "design",
+      "file": "design/design-inclusive-visuals-specialist.md"
+    },
+    {
+      "name": "UI Designer",
+      "description": "Expert UI designer specializing in visual design systems, component libraries, and pixel-perfect interface creation. Creates beautiful, consistent, accessible user interfaces that enhance UX and reflect brand identity",
+      "emoji": "🎨",
+      "vibe": "Creates beautiful, consistent, accessible interfaces that feel just right.",
+      "division": "design",
+      "file": "design/design-ui-designer.md"
+    },
+    {
+      "name": "UX Architect",
+      "description": "Technical architecture and UX specialist who provides developers with solid foundations, CSS systems, and clear implementation guidance",
+      "emoji": "📐",
+      "vibe": "Gives developers solid foundations, CSS systems, and clear implementation paths.",
+      "division": "design",
+      "file": "design/design-ux-architect.md"
+    },
+    {
+      "name": "UX Researcher",
+      "description": "Expert user experience researcher specializing in user behavior analysis, usability testing, and data-driven design insights. Provides actionable research findings that improve product usability and user satisfaction",
+      "emoji": "🔬",
+      "vibe": "Validates design decisions with real user data, not assumptions.",
+      "division": "design",
+      "file": "design/design-ux-researcher.md"
+    },
+    {
+      "name": "Visual Storyteller",
+      "description": "Expert visual communication specialist focused on creating compelling visual narratives, multimedia content, and brand storytelling through design. Specializes in transforming complex information into engaging visual stories that connect with audiences and drive emotional engagement.",
+      "emoji": "🎬",
+      "vibe": "Transforms complex information into visual narratives that move people.",
+      "division": "design",
+      "file": "design/design-visual-storyteller.md"
+    },
+    {
+      "name": "Whimsy Injector",
+      "description": "Expert creative specialist focused on adding personality, delight, and playful elements to brand experiences. Creates memorable, joyful interactions that differentiate brands through unexpected moments of whimsy",
+      "emoji": "✨",
+      "vibe": "Adds the unexpected moments of delight that make brands unforgettable.",
+      "division": "design",
+      "file": "design/design-whimsy-injector.md"
+    },
+    {
+      "name": "Community Builder",
+      "description": "Grows and sustains developer communities — Discord servers, GitHub discussions, forums, and contributor programs — turning users into advocates and advocates into contributors.",
+      "emoji": "🌱",
+      "vibe": "I build the room where developers want to stay — then I make sure they have a reason to bring others.",
+      "division": "developer-relations",
+      "file": "developer-relations/devrel-community-builder.md"
+    },
+    {
+      "name": "Developer Advocate",
+      "description": "Turns developer tools into compelling stories through talks, demos, blog posts, and technical content that makes engineers excited to build.",
+      "emoji": "🎤",
+      "vibe": "Part engineer, part storyteller — I make developers feel the future before they can build it.",
+      "division": "developer-relations",
+      "file": "developer-relations/devrel-developer-advocate.md"
+    },
+    {
+      "name": "Docs Engineer",
+      "description": "Writes API references, tutorials, and getting-started guides so precise and empathetic that developers never have to guess what comes next.",
+      "emoji": "📖",
+      "vibe": "Empathy for the lost developer is my architecture constraint — if they're confused, the docs are broken.",
+      "division": "developer-relations",
+      "file": "developer-relations/devrel-docs-engineer.md"
+    },
+    {
+      "name": "DX Engineer",
+      "description": "Removes every unnecessary step between a developer and their first success — SDK samples, onboarding flows, error messages, and the feedback loops that make products feel like they were built by someone who's used them.",
+      "emoji": "🔬",
+      "vibe": "If a developer has to guess, I've already failed — friction is a bug and I'm here to fix it.",
+      "division": "developer-relations",
+      "file": "developer-relations/devrel-dx-engineer.md"
+    },
+    {
+      "name": "AI Data Remediation Engineer",
+      "description": "\"Specialist in self-healing data pipelines — uses air-gapped local SLMs and semantic clustering to automatically detect, classify, and fix data anomalies at scale. Focuses exclusively on the remediation layer: intercepting bad data, generating deterministic fix logic via Ollama, and guaranteeing zero data loss. Not a general data engineer — a surgical specialist for when your data is broken and the pipeline can't stop.\"",
+      "emoji": "🧬",
+      "vibe": "Fixes your broken data with surgical AI precision — no rows left behind.",
+      "division": "engineering",
+      "file": "engineering/engineering-ai-data-remediation-engineer.md"
+    },
+    {
+      "name": "AI Engineer",
+      "description": "Expert AI/ML engineer specializing in machine learning model development, deployment, and integration into production systems. Focused on building intelligent features, data pipelines, and AI-powered applications with emphasis on practical, scalable solutions.",
+      "emoji": "🤖",
+      "vibe": "Turns ML models into production features that actually scale.",
+      "division": "engineering",
+      "file": "engineering/engineering-ai-engineer.md"
+    },
+    {
+      "name": "Autonomous Optimization Architect",
+      "description": "Intelligent system governor that continuously shadow-tests APIs for performance while enforcing strict financial and security guardrails against runaway costs.",
+      "emoji": "⚡",
+      "vibe": "The system governor that makes things faster without bankrupting you.",
+      "division": "engineering",
+      "file": "engineering/engineering-autonomous-optimization-architect.md"
+    },
+    {
+      "name": "Backend Architect",
+      "description": "Senior backend architect specializing in scalable system design, database architecture, API development, and cloud infrastructure. Builds robust, secure, performant server-side applications and microservices",
+      "emoji": "🏗️",
+      "vibe": "Designs the systems that hold everything up — databases, APIs, cloud, scale.",
+      "division": "engineering",
+      "file": "engineering/engineering-backend-architect.md"
+    },
+    {
+      "name": "CMS Developer",
+      "description": "Drupal and WordPress specialist for theme development, custom plugins/modules, content architecture, and code-first CMS implementation",
+      "emoji": "🧱",
+      "vibe": "",
+      "division": "engineering",
+      "file": "engineering/engineering-cms-developer.md"
+    },
+    {
+      "name": "Code Reviewer",
+      "description": "Expert code reviewer who provides constructive, actionable feedback focused on correctness, maintainability, security, and performance — not style preferences.",
+      "emoji": "👁️",
+      "vibe": "Reviews code like a mentor, not a gatekeeper. Every comment teaches something.",
+      "division": "engineering",
+      "file": "engineering/engineering-code-reviewer.md"
+    },
+    {
+      "name": "Codebase Onboarding Engineer",
+      "description": "Expert developer onboarding specialist who helps new engineers understand unfamiliar codebases fast by reading source code, tracing code paths, and stating only facts grounded in the code.",
+      "emoji": "🧭",
+      "vibe": "Gets new developers productive faster by reading the code, tracing the paths, and stating the facts. Nothing extra.",
+      "division": "engineering",
+      "file": "engineering/engineering-codebase-onboarding-engineer.md"
+    },
+    {
+      "name": "Data Engineer",
+      "description": "Expert data engineer specializing in building reliable data pipelines, lakehouse architectures, and scalable data infrastructure. Masters ETL/ELT, Apache Spark, dbt, streaming systems, and cloud data platforms to turn raw data into trusted, analytics-ready assets.",
+      "emoji": "🔧",
+      "vibe": "Builds the pipelines that turn raw data into trusted, analytics-ready assets.",
+      "division": "engineering",
+      "file": "engineering/engineering-data-engineer.md"
+    },
+    {
+      "name": "Database Optimizer",
+      "description": "Expert database specialist focusing on schema design, query optimization, indexing strategies, and performance tuning for PostgreSQL, MySQL, and modern databases like Supabase and PlanetScale.",
+      "emoji": "🗄️",
+      "vibe": "Indexes, query plans, and schema design — databases that don't wake you at 3am.",
+      "division": "engineering",
+      "file": "engineering/engineering-database-optimizer.md"
+    },
+    {
+      "name": "DevOps Automator",
+      "description": "Expert DevOps engineer specializing in infrastructure automation, CI/CD pipeline development, and cloud operations",
+      "emoji": "⚙️",
+      "vibe": "Automates infrastructure so your team ships faster and sleeps better.",
+      "division": "engineering",
+      "file": "engineering/engineering-devops-automator.md"
+    },
+    {
+      "name": "Email Intelligence Engineer",
+      "description": "Expert in extracting structured, reasoning-ready data from raw email threads for AI agents and automation systems",
+      "emoji": "📧",
+      "vibe": "Turns messy MIME into reasoning-ready context because raw email is noise and your agent deserves signal",
+      "division": "engineering",
+      "file": "engineering/engineering-email-intelligence-engineer.md"
+    },
+    {
+      "name": "Embedded Firmware Engineer",
+      "description": "Specialist in bare-metal and RTOS firmware - ESP32/ESP-IDF, PlatformIO, Arduino, ARM Cortex-M, STM32 HAL/LL, Nordic nRF5/nRF Connect SDK, FreeRTOS, Zephyr",
+      "emoji": "🔩",
+      "vibe": "Writes production-grade firmware for hardware that can't afford to crash.",
+      "division": "engineering",
+      "file": "engineering/engineering-embedded-firmware-engineer.md"
+    },
+    {
+      "name": "Feishu Integration Developer",
+      "description": "Full-stack integration expert specializing in the Feishu (Lark) Open Platform — proficient in Feishu bots, mini programs, approval workflows, Bitable (multidimensional spreadsheets), interactive message cards, Webhooks, SSO authentication, and workflow automation, building enterprise-grade collaboration and automation solutions within the Feishu ecosystem.",
+      "emoji": "🔗",
+      "vibe": "Builds enterprise integrations on the Feishu (Lark) platform — bots, approvals, data sync, and SSO — so your team's workflows run on autopilot.",
+      "division": "engineering",
+      "file": "engineering/engineering-feishu-integration-developer.md"
+    },
+    {
+      "name": "Filament Optimization Specialist",
+      "description": "Expert in restructuring and optimizing Filament PHP admin interfaces for maximum usability and efficiency. Focuses on impactful structural changes — not just cosmetic tweaks.",
+      "emoji": "🔧",
+      "vibe": "Pragmatic perfectionist — streamlines complex admin environments.",
+      "division": "engineering",
+      "file": "engineering/engineering-filament-optimization-specialist.md"
+    },
+    {
+      "name": "Frontend Developer",
+      "description": "Expert frontend developer specializing in modern web technologies, React/Vue/Angular frameworks, UI implementation, and performance optimization",
+      "emoji": "🖥️",
+      "vibe": "Builds responsive, accessible web apps with pixel-perfect precision.",
+      "division": "engineering",
+      "file": "engineering/engineering-frontend-developer.md"
+    },
+    {
+      "name": "Git Workflow Master",
+      "description": "Expert in Git workflows, branching strategies, and version control best practices including conventional commits, rebasing, worktrees, and CI-friendly branch management.",
+      "emoji": "🌿",
+      "vibe": "Clean history, atomic commits, and branches that tell a story.",
+      "division": "engineering",
+      "file": "engineering/engineering-git-workflow-master.md"
+    },
+    {
+      "name": "Incident Response Commander",
+      "description": "Expert incident commander specializing in production incident management, structured response coordination, post-mortem facilitation, SLO/SLI tracking, and on-call process design for reliable engineering organizations.",
+      "emoji": "🚨",
+      "vibe": "Turns production chaos into structured resolution.",
+      "division": "engineering",
+      "file": "engineering/engineering-incident-response-commander.md"
+    },
+    {
+      "name": "LLM Optimization Agent",
+      "description": "Actionable LLM optimization advisor for engineering, deployment, and real-time retrieval. Delivers checklist-driven, criteria-based recommendations for maximizing LLM performance, cost-efficiency, and agent visibility.",
+      "emoji": "🧠",
+      "vibe": "Turns LLMs into reliable, cost-effective, and agent-friendly production features.",
+      "division": "engineering",
+      "file": "engineering/engineering-llm-optimization-agent.md"
+    },
+    {
+      "name": "Minimal Change Engineer",
+      "description": "Engineering specialist focused on minimum-viable diffs — fixes only what was asked, refuses scope creep, prefers three similar lines over a premature abstraction. The discipline that prevents bug-fix PRs from becoming refactor avalanches.",
+      "emoji": "🪡",
+      "vibe": "The smallest diff that solves the problem — every extra line is a liability.",
+      "division": "engineering",
+      "file": "engineering/engineering-minimal-change-engineer.md"
+    },
+    {
+      "name": "Mobile App Builder",
+      "description": "Specialized mobile application developer with expertise in native iOS/Android development and cross-platform frameworks",
+      "emoji": "📲",
+      "vibe": "Ships native-quality apps on iOS and Android, fast.",
+      "division": "engineering",
+      "file": "engineering/engineering-mobile-app-builder.md"
+    },
+    {
+      "name": "Rapid Prototyper",
+      "description": "Specialized in ultra-fast proof-of-concept development and MVP creation using efficient tools and frameworks",
+      "emoji": "⚡",
+      "vibe": "Turns an idea into a working prototype before the meeting's over.",
+      "division": "engineering",
+      "file": "engineering/engineering-rapid-prototyper.md"
+    },
+    {
+      "name": "Security Engineer",
+      "description": "Expert application security engineer specializing in threat modeling, vulnerability assessment, secure code review, security architecture design, and incident response for modern web, API, and cloud-native applications.",
+      "emoji": "🔒",
+      "vibe": "Models threats, reviews code, hunts vulnerabilities, and designs security architecture that actually holds under adversarial pressure.",
+      "division": "engineering",
+      "file": "engineering/engineering-security-engineer.md"
+    },
+    {
+      "name": "Senior Developer",
+      "description": "Premium implementation specialist - Masters Laravel/Livewire/FluxUI, advanced CSS, Three.js integration",
+      "emoji": "💎",
+      "vibe": "Premium full-stack craftsperson — Laravel, Livewire, Three.js, advanced CSS.",
+      "division": "engineering",
+      "file": "engineering/engineering-senior-developer.md"
+    },
+    {
+      "name": "Software Architect",
+      "description": "Expert software architect specializing in system design, domain-driven design, architectural patterns, and technical decision-making for scalable, maintainable systems.",
+      "emoji": "🏛️",
+      "vibe": "Designs systems that survive the team that built them. Every decision has a trade-off — name it.",
+      "division": "engineering",
+      "file": "engineering/engineering-software-architect.md"
+    },
+    {
+      "name": "Solidity Smart Contract Engineer",
+      "description": "Expert Solidity developer specializing in EVM smart contract architecture, gas optimization, upgradeable proxy patterns, DeFi protocol development, and security-first contract design across Ethereum and L2 chains.",
+      "emoji": "⛓️",
+      "vibe": "Battle-hardened Solidity developer who lives and breathes the EVM.",
+      "division": "engineering",
+      "file": "engineering/engineering-solidity-smart-contract-engineer.md"
+    },
+    {
+      "name": "SRE (Site Reliability Engineer)",
+      "description": "Expert site reliability engineer specializing in SLOs, error budgets, observability, chaos engineering, and toil reduction for production systems at scale.",
+      "emoji": "🛡️",
+      "vibe": "Reliability is a feature. Error budgets fund velocity — spend them wisely.",
+      "division": "engineering",
+      "file": "engineering/engineering-sre.md"
+    },
+    {
+      "name": "Technical Writer",
+      "description": "Expert technical writer specializing in developer documentation, API references, README files, and tutorials. Transforms complex engineering concepts into clear, accurate, and engaging docs that developers actually read and use.",
+      "emoji": "📚",
+      "vibe": "Writes the docs that developers actually read and use.",
+      "division": "engineering",
+      "file": "engineering/engineering-technical-writer.md"
+    },
+    {
+      "name": "Threat Detection Engineer",
+      "description": "Expert detection engineer specializing in SIEM rule development, MITRE ATT&CK coverage mapping, threat hunting, alert tuning, and detection-as-code pipelines for security operations teams.",
+      "emoji": "🎯",
+      "vibe": "Builds the detection layer that catches attackers after they bypass prevention.",
+      "division": "engineering",
+      "file": "engineering/engineering-threat-detection-engineer.md"
+    },
+    {
+      "name": "Voice AI Integration Engineer",
+      "description": "Expert in building end-to-end speech transcription pipelines using Whisper-style models and cloud ASR services — from raw audio ingestion through preprocessing, transcript cleanup, subtitle generation, speaker diarization, and structured downstream integration into apps, APIs, and CMS platforms.",
+      "emoji": "🎙️",
+      "vibe": "Turns raw audio into structured, production-ready text that machines and humans can actually use.",
+      "division": "engineering",
+      "file": "engineering/engineering-voice-ai-integration-engineer.md"
+    },
+    {
+      "name": "WeChat Mini Program Developer",
+      "description": "Expert WeChat Mini Program developer specializing in 小程序 development with WXML/WXSS/WXS, WeChat API integration, payment systems, subscription messaging, and the full WeChat ecosystem.",
+      "emoji": "💬",
+      "vibe": "Builds performant Mini Programs that thrive in the WeChat ecosystem.",
+      "division": "engineering",
+      "file": "engineering/engineering-wechat-mini-program-developer.md"
+    },
+    {
+      "name": "Bookkeeper & Controller",
+      "description": "Expert bookkeeper and controller specializing in day-to-day accounting operations, financial reconciliations, month-end close processes, and internal controls. Ensures the accuracy, completeness, and timeliness of financial records while maintaining GAAP compliance and audit readiness at all times.",
+      "emoji": "📒",
+      "vibe": "Every penny accounted for, every close on time — the backbone of financial trust.",
+      "division": "finance",
+      "file": "finance/finance-bookkeeper-controller.md"
+    },
+    {
+      "name": "Exchange Integration Architect",
+      "description": "Expert architect for multi-exchange trading infrastructure integrations. Designs API integration patterns, credential management systems, portfolio reconciliation engines, and disaster recovery protocols for seamless cross-exchange trading operations.",
+      "emoji": "🌐",
+      "vibe": "The exchange is your bank. Your API wrapper is your vault. Get it right or get liquidated.",
+      "division": "finance",
+      "file": "finance/finance-exchange-integration-architect.md"
+    },
+    {
+      "name": "Financial Analyst",
+      "description": "Expert financial analyst specializing in financial modeling, forecasting, scenario analysis, and data-driven decision support. Transforms raw financial data into actionable business intelligence that drives strategic planning, investment decisions, and operational optimization.",
+      "emoji": "📊",
+      "vibe": "Turns spreadsheets into strategy — every number tells a story, every model drives a decision.",
+      "division": "finance",
+      "file": "finance/finance-financial-analyst.md"
+    },
+    {
+      "name": "FP&A Analyst",
+      "description": "Expert Financial Planning & Analysis (FP&A) analyst specializing in budgeting, variance analysis, financial planning, rolling forecasts, and strategic decision support. Bridges the gap between the numbers and the business narrative to drive operational performance and strategic resource allocation.",
+      "emoji": "📈",
+      "vibe": "The budget whisperer — turns plans into numbers and numbers into action.",
+      "division": "finance",
+      "file": "finance/finance-fpa-analyst.md"
+    },
+    {
+      "name": "Investment Researcher",
+      "description": "Expert investment researcher specializing in market research, due diligence, portfolio analysis, and asset valuation. Conducts rigorous fundamental and quantitative analysis to identify investment opportunities, assess risks, and support data-driven portfolio decisions across public equities, private markets, and alternative assets.",
+      "emoji": "🔍",
+      "vibe": "Digs deeper than the consensus — finds alpha in the footnotes and risks in the narratives.",
+      "division": "finance",
+      "file": "finance/finance-investment-researcher.md"
+    },
+    {
+      "name": "Tax Strategist",
+      "description": "Expert tax strategist specializing in tax optimization, multi-jurisdictional compliance, transfer pricing, and strategic tax planning. Navigates complex tax codes to minimize liability while ensuring full regulatory compliance across local, state, federal, and international tax regimes.",
+      "emoji": "🏛️",
+      "vibe": "Finds every legal dollar of savings in the tax code — compliance is the floor, optimization is the mission.",
+      "division": "finance",
+      "file": "finance/finance-tax-strategist.md"
+    },
+    {
+      "name": "Blender Add-on Engineer",
+      "description": "Blender tooling specialist - Builds Python add-ons, asset validators, exporters, and pipeline automations that turn repetitive DCC work into reliable one-click workflows",
+      "emoji": "🧩",
+      "vibe": "Turns repetitive Blender pipeline work into reliable one-click tools that artists actually use.",
+      "division": "game-development",
+      "file": "game-development/blender/blender-addon-engineer.md"
+    },
+    {
+      "name": "Game Audio Engineer",
+      "description": "Interactive audio specialist - Masters FMOD/Wwise integration, adaptive music systems, spatial audio, and audio performance budgeting across all game engines",
+      "emoji": "🎵",
+      "vibe": "Makes every gunshot, footstep, and musical cue feel alive in the game world.",
+      "division": "game-development",
+      "file": "game-development/game-audio-engineer.md"
+    },
+    {
+      "name": "Game Designer",
+      "description": "Systems and mechanics architect - Masters GDD authorship, player psychology, economy balancing, and gameplay loop design across all engines and genres",
+      "emoji": "🎮",
+      "vibe": "Thinks in loops, levers, and player motivations to architect compelling gameplay.",
+      "division": "game-development",
+      "file": "game-development/game-designer.md"
+    },
+    {
+      "name": "Godot Gameplay Scripter",
+      "description": "Composition and signal integrity specialist - Masters GDScript 2.0, C# integration, node-based architecture, and type-safe signal design for Godot 4 projects",
+      "emoji": "🎯",
+      "vibe": "Builds Godot 4 gameplay systems with the discipline of a software architect.",
+      "division": "game-development",
+      "file": "game-development/godot/godot-gameplay-scripter.md"
+    },
+    {
+      "name": "Godot Multiplayer Engineer",
+      "description": "Godot 4 networking specialist - Masters the MultiplayerAPI, scene replication, ENet/WebRTC transport, RPCs, and authority models for real-time multiplayer games",
+      "emoji": "🌐",
+      "vibe": "Masters Godot's MultiplayerAPI to make real-time netcode feel seamless.",
+      "division": "game-development",
+      "file": "game-development/godot/godot-multiplayer-engineer.md"
+    },
+    {
+      "name": "Godot Shader Developer",
+      "description": "Godot 4 visual effects specialist - Masters the Godot Shading Language (GLSL-like), VisualShader editor, CanvasItem and Spatial shaders, post-processing, and performance optimization for 2D/3D effects",
+      "emoji": "💎",
+      "vibe": "Bends light and pixels through Godot's shading language to create stunning effects.",
+      "division": "game-development",
+      "file": "game-development/godot/godot-shader-developer.md"
+    },
+    {
+      "name": "Level Designer",
+      "description": "Spatial storytelling and flow specialist - Masters layout theory, pacing architecture, encounter design, and environmental narrative across all game engines",
+      "emoji": "🗺️",
+      "vibe": "Treats every level as an authored experience where space tells the story.",
+      "division": "game-development",
+      "file": "game-development/level-designer.md"
+    },
+    {
+      "name": "Narrative Designer",
+      "description": "Story systems and dialogue architect - Masters GDD-aligned narrative design, branching dialogue, lore architecture, and environmental storytelling across all game engines",
+      "emoji": "📖",
+      "vibe": "Architects story systems where narrative and gameplay are inseparable.",
+      "division": "game-development",
+      "file": "game-development/narrative-designer.md"
+    },
+    {
+      "name": "Roblox Avatar Creator",
+      "description": "Roblox UGC and avatar pipeline specialist - Masters Roblox's avatar system, UGC item creation, accessory rigging, texture standards, and the Creator Marketplace submission pipeline",
+      "emoji": "👤",
+      "vibe": "Masters the UGC pipeline from rigging to Creator Marketplace submission.",
+      "division": "game-development",
+      "file": "game-development/roblox-studio/roblox-avatar-creator.md"
+    },
+    {
+      "name": "Roblox Experience Designer",
+      "description": "Roblox platform UX and monetization specialist - Masters engagement loop design, DataStore-driven progression, Roblox monetization systems (Passes, Developer Products, UGC), and player retention for Roblox experiences",
+      "emoji": "🎪",
+      "vibe": "Designs engagement loops and monetization systems that keep players coming back.",
+      "division": "game-development",
+      "file": "game-development/roblox-studio/roblox-experience-designer.md"
+    },
+    {
+      "name": "Roblox Systems Scripter",
+      "description": "Roblox platform engineering specialist - Masters Luau, the client-server security model, RemoteEvents/RemoteFunctions, DataStore, and module architecture for scalable Roblox experiences",
+      "emoji": "🔧",
+      "vibe": "Builds scalable Roblox experiences with rock-solid Luau and client-server security.",
+      "division": "game-development",
+      "file": "game-development/roblox-studio/roblox-systems-scripter.md"
+    },
+    {
+      "name": "Technical Artist",
+      "description": "Art-to-engine pipeline specialist - Masters shaders, VFX systems, LOD pipelines, performance budgeting, and cross-engine asset optimization",
+      "emoji": "🎨",
+      "vibe": "The bridge between artistic vision and engine reality.",
+      "division": "game-development",
+      "file": "game-development/technical-artist.md"
+    },
+    {
+      "name": "Unity Architect",
+      "description": "Data-driven modularity specialist - Masters ScriptableObjects, decoupled systems, and single-responsibility component design for scalable Unity projects",
+      "emoji": "🏛️",
+      "vibe": "Designs data-driven, decoupled Unity systems that scale without spaghetti.",
+      "division": "game-development",
+      "file": "game-development/unity/unity-architect.md"
+    },
+    {
+      "name": "Unity Editor Tool Developer",
+      "description": "Unity editor automation specialist - Masters custom EditorWindows, PropertyDrawers, AssetPostprocessors, ScriptedImporters, and pipeline automation that saves teams hours per week",
+      "emoji": "🛠️",
+      "vibe": "Builds custom Unity editor tools that save teams hours every week.",
+      "division": "game-development",
+      "file": "game-development/unity/unity-editor-tool-developer.md"
+    },
+    {
+      "name": "Unity Multiplayer Engineer",
+      "description": "Networked gameplay specialist - Masters Netcode for GameObjects, Unity Gaming Services (Relay/Lobby), client-server authority, lag compensation, and state synchronization",
+      "emoji": "🔗",
+      "vibe": "Makes networked Unity gameplay feel local through smart sync and prediction.",
+      "division": "game-development",
+      "file": "game-development/unity/unity-multiplayer-engineer.md"
+    },
+    {
+      "name": "Unity Shader Graph Artist",
+      "description": "Visual effects and material specialist - Masters Unity Shader Graph, HLSL, URP/HDRP rendering pipelines, and custom pass authoring for real-time visual effects",
+      "emoji": "✨",
+      "vibe": "Crafts real-time visual magic through Shader Graph and custom render passes.",
+      "division": "game-development",
+      "file": "game-development/unity/unity-shader-graph-artist.md"
+    },
+    {
+      "name": "Unreal Multiplayer Architect",
+      "description": "Unreal Engine networking specialist - Masters Actor replication, GameMode/GameState architecture, server-authoritative gameplay, network prediction, and dedicated server setup for UE5",
+      "emoji": "🌐",
+      "vibe": "Architects server-authoritative Unreal multiplayer that feels lag-free.",
+      "division": "game-development",
+      "file": "game-development/unreal-engine/unreal-multiplayer-architect.md"
+    },
+    {
+      "name": "Unreal Systems Engineer",
+      "description": "Performance and hybrid architecture specialist - Masters C++/Blueprint continuum, Nanite geometry, Lumen GI, and Gameplay Ability System for AAA-grade Unreal Engine projects",
+      "emoji": "⚙️",
+      "vibe": "Masters the C++/Blueprint continuum for AAA-grade Unreal Engine projects.",
+      "division": "game-development",
+      "file": "game-development/unreal-engine/unreal-systems-engineer.md"
+    },
+    {
+      "name": "Unreal Technical Artist",
+      "description": "Unreal Engine visual pipeline specialist - Masters the Material Editor, Niagara VFX, Procedural Content Generation, and the art-to-engine pipeline for UE5 projects",
+      "emoji": "🎨",
+      "vibe": "Bridges Niagara VFX, Material Editor, and PCG into polished UE5 visuals.",
+      "division": "game-development",
+      "file": "game-development/unreal-engine/unreal-technical-artist.md"
+    },
+    {
+      "name": "Unreal World Builder",
+      "description": "Open-world and environment specialist - Masters UE5 World Partition, Landscape, procedural foliage, HLOD, and large-scale level streaming for seamless open-world experiences",
+      "emoji": "🌍",
+      "vibe": "Builds seamless open worlds with World Partition, Nanite, and procedural foliage.",
+      "division": "game-development",
+      "file": "game-development/unreal-engine/unreal-world-builder.md"
+    },
+    {
+      "name": "Automation Solutions Architect",
+      "description": "Designs non-standard automation equipment and production-line concepts for automotive electronics and home appliance manufacturing. Converts process requirements into workstation architecture, takt-driven layouts, boundary assumptions, and technical risk maps.",
+      "emoji": "🏗️",
+      "vibe": "Builds the line in logic before anyone cuts steel.",
+      "division": "manufacturing",
+      "file": "manufacturing/manufacturing-automation-solutions-architect.md"
+    },
+    {
+      "name": "Controls Engineer",
+      "description": "Embedded controls systems architect for automated machinery. Designs PLC / motion controller / HMI architectures that are safe, deterministic, testable, and operator-clear. Masters signal integrity, fault tolerance, and commissioning discipline.",
+      "emoji": "⚙️",
+      "vibe": "Controls should be obvious, not clever. Safe always wins.",
+      "division": "manufacturing",
+      "file": "manufacturing/manufacturing-controls-engineer.md"
+    },
+    {
+      "name": "Design Engineer",
+      "description": "Mechanical design architect for automated machinery. Creates CAD, tolerances, assembly interfaces, and design releases that are manufacturable, testable, and dimensionally stable. Backed by manufacturing design discipline.",
+      "emoji": "📐",
+      "vibe": "Design locks once; changes cost 10x. Get it right in CAD.",
+      "division": "manufacturing",
+      "file": "manufacturing/manufacturing-design-engineer.md"
+    },
+    {
+      "name": "Non-Standard Automation Sales Engineer",
+      "description": "Senior manufacturing solutions seller for non-standard automation equipment and production lines in automotive electronics and home appliances. Turns ambiguous customer asks into scoped opportunities, risk-aware proposals, and practical next steps.",
+      "emoji": "🧩",
+      "vibe": "Sells custom automation by clarifying the process, not by overselling the machine.",
+      "division": "manufacturing",
+      "file": "manufacturing/manufacturing-nonstandard-automation-sales-engineer.md"
+    },
+    {
+      "name": "Process Engineer",
+      "description": "Manufacturing process designer for automated lines. Designs assembly sequences, fixtures, tooling, WIP flow, cycle time targets, and operator procedures that are repeatable, cost-efficient, and safe. Backed by manufacturing process discipline.",
+      "emoji": "🔧",
+      "vibe": "Process design is upstream of quality. Get it right first.",
+      "division": "manufacturing",
+      "file": "manufacturing/manufacturing-process-engineer.md"
+    },
+    {
+      "name": "Process Industrialization Engineer",
+      "description": "Manufacturing process engineer for converting manual or semi-automatic operations into scalable, launch-ready automation. Defines station flow, PFMEA-oriented controls, SOP logic, balancing assumptions, and trial-build learning loops.",
+      "emoji": "⚙️",
+      "vibe": "Turns tribal know-how into repeatable production logic.",
+      "division": "manufacturing",
+      "file": "manufacturing/manufacturing-process-industrialization-engineer.md"
+    },
+    {
+      "name": "Procurement Manager",
+      "description": "Supply chain orchestrator for special machines. Manages BOM accuracy, supplier sourcing, lead times, expediting, quality agreements, inventory, and delivery coordination to keep programs on schedule and avoid surprises.",
+      "emoji": "📦",
+      "vibe": "Procurement risk is program risk. Control it early.",
+      "division": "manufacturing",
+      "file": "manufacturing/manufacturing-procurement-manager.md"
+    },
+    {
+      "name": "Program Launch Manager",
+      "description": "Manufacturing launch and cross-functional delivery manager for non-standard automation lines. Keeps quotation assumptions, design release, procurement, assembly, debug, FAT, SAT, and ramp-up aligned around milestones, risks, and practical closure.",
+      "emoji": "🚦",
+      "vibe": "Keeps custom equipment programs moving before delays turn into blame.",
+      "division": "manufacturing",
+      "file": "manufacturing/manufacturing-program-launch-manager.md"
+    },
+    {
+      "name": "Quality and 8D Engineer",
+      "description": "Manufacturing quality engineer for automotive electronics and home appliance automation projects. Structures escapes, line stops, customer complaints, and ramp issues into defect containment, 8D/CAPA actions, and prevention plans that engineering teams can actually execute.",
+      "emoji": "🛡️",
+      "vibe": "Turns messy quality pain into disciplined closure and prevention.",
+      "division": "manufacturing",
+      "file": "manufacturing/manufacturing-quality-8d-engineer.md"
+    },
+    {
+      "name": "Quality Engineer",
+      "description": "Test systems architect for automated lines who writes protocols that catch what matters, controls variables, and verifies capability in parallel (not serialized). Backed by manufacturing test discipline.",
+      "emoji": "✅",
+      "vibe": "Tests should eliminate doubt, not create theater.",
+      "division": "manufacturing",
+      "file": "manufacturing/manufacturing-quality-engineer.md"
+    },
+    {
+      "name": "Test and Validation Engineer",
+      "description": "Manufacturing test engineer for end-of-line, functional, electrical, vision, and process validation in non-standard automation projects. Defines practical test coverage, acceptance logic, golden sample strategy, and launch-ready verification plans.",
+      "emoji": "🧪",
+      "vibe": "Makes sure the line proves reality instead of just passing a demo run.",
+      "division": "manufacturing",
+      "file": "manufacturing/manufacturing-test-and-validation-engineer.md"
+    },
+    {
+      "name": "Agentic Search Optimizer",
+      "description": "Expert in WebMCP readiness and agentic task completion — audits whether AI agents can actually accomplish tasks on your site (book, buy, register, subscribe), implements WebMCP declarative and imperative patterns, and measures task completion rates across AI browsing agents",
+      "emoji": "🤖",
+      "vibe": "While everyone else is optimizing to get cited by AI, this agent makes sure AI can actually do the thing on your site",
+      "division": "marketing",
+      "file": "marketing/marketing-agentic-search-optimizer.md"
+    },
+    {
+      "name": "AI Citation Strategist",
+      "description": "Expert in AI recommendation engine optimization (AEO/GEO) — audits brand visibility across ChatGPT, Claude, Gemini, and Perplexity, identifies why competitors get cited instead, and delivers content fixes that improve AI citations",
+      "emoji": "🔮",
+      "vibe": "Figures out why the AI recommends your competitor and rewires the signals so it recommends you instead",
+      "division": "marketing",
+      "file": "marketing/marketing-ai-citation-strategist.md"
+    },
+    {
+      "name": "App Store Optimizer",
+      "description": "Expert app store marketing specialist focused on App Store Optimization (ASO), conversion rate optimization, and app discoverability",
+      "emoji": "📱",
+      "vibe": "Gets your app found, downloaded, and loved in the store.",
+      "division": "marketing",
+      "file": "marketing/marketing-app-store-optimizer.md"
+    },
+    {
+      "name": "Baidu SEO Specialist",
+      "description": "Expert Baidu search optimization specialist focused on Chinese search engine ranking, Baidu ecosystem integration, ICP compliance, Chinese keyword research, and mobile-first indexing for the China market.",
+      "emoji": "🇨🇳",
+      "vibe": "Masters Baidu's algorithm so your brand ranks in China's search ecosystem.",
+      "division": "marketing",
+      "file": "marketing/marketing-baidu-seo-specialist.md"
+    },
+    {
+      "name": "Bilibili Content Strategist",
+      "description": "Expert Bilibili marketing specialist focused on UP主 growth, danmaku culture mastery, B站 algorithm optimization, community building, and branded content strategy for China's leading video community platform.",
+      "emoji": "🎬",
+      "vibe": "Speaks fluent danmaku and grows your brand on B站.",
+      "division": "marketing",
+      "file": "marketing/marketing-bilibili-content-strategist.md"
+    },
+    {
+      "name": "Book Co-Author",
+      "description": "Strategic thought-leadership book collaborator for founders, experts, and operators turning voice notes, fragments, and positioning into structured first-person chapters.",
+      "emoji": "\"📘\"",
+      "vibe": "Turns rough expertise into a recognizable book people can quote, remember, and buy into.",
+      "division": "marketing",
+      "file": "marketing/marketing-book-co-author.md"
+    },
+    {
+      "name": "Book Launch Coordinator",
+      "description": "Launch specialist orchestrating coordinated release campaigns across all channels. Synchronizes book drops with LinkedIn authority surge, podcast deep-dives, radio appearances, and social media peaks for maximum reach and sustained post-launch momentum.",
+      "emoji": "🚀",
+      "vibe": "Turns book launches into orchestrated events across every platform you own.",
+      "division": "marketing",
+      "file": "marketing/marketing-book-launch-coordinator.md"
+    },
+    {
+      "name": "Carousel Growth Engine",
+      "description": "Autonomous TikTok and Instagram carousel generation specialist. Analyzes any website URL with Playwright, generates viral 6-slide carousels via Gemini image generation, publishes directly to feed via Upload-Post API with auto trending music, fetches analytics, and iteratively improves through a data-driven learning loop.",
+      "emoji": "🎠",
+      "vibe": "Autonomously generates viral carousels from any URL and publishes them to feed.",
+      "division": "marketing",
+      "file": "marketing/marketing-carousel-growth-engine.md"
+    },
+    {
+      "name": "China E-Commerce Operator",
+      "description": "Expert China e-commerce operations specialist covering Taobao, Tmall, Pinduoduo, and JD ecosystems with deep expertise in product listing optimization, live commerce, store operations, 618/Double 11 campaigns, and cross-platform strategy.",
+      "emoji": "🛒",
+      "vibe": "Runs your Taobao, Tmall, Pinduoduo, and JD storefronts like a native operator.",
+      "division": "marketing",
+      "file": "marketing/marketing-china-ecommerce-operator.md"
+    },
+    {
+      "name": "China Market Localization Strategist",
+      "description": "Full-stack China market localization expert who transforms real-time trend signals into executable go-to-market strategies across Douyin, Xiaohongshu, WeChat, Bilibili, and beyond",
+      "emoji": "🇨🇳",
+      "vibe": "Turns China's chaotic trend landscape into a precision-guided marketing machine — data in, revenue out.",
+      "division": "marketing",
+      "file": "marketing/marketing-china-market-localization-strategist.md"
+    },
+    {
+      "name": "Content Creator",
+      "description": "Expert content strategist and creator for multi-platform campaigns. Develops editorial calendars, creates compelling copy, manages brand storytelling, and optimizes content for engagement across all digital channels.",
+      "emoji": "✍️",
+      "vibe": "Crafts compelling stories across every platform your audience lives on.",
+      "division": "marketing",
+      "file": "marketing/marketing-content-creator.md"
+    },
+    {
+      "name": "Cross-Border E-Commerce Specialist",
+      "description": "Full-funnel cross-border e-commerce strategist covering Amazon, Shopee, Lazada, AliExpress, Temu, and TikTok Shop operations, international logistics and overseas warehousing, compliance and taxation, multilingual listing optimization, brand globalization, and DTC independent site development.",
+      "emoji": "🌏",
+      "vibe": "Takes your products from Chinese factories to global bestseller lists.",
+      "division": "marketing",
+      "file": "marketing/marketing-cross-border-ecommerce.md"
+    },
+    {
+      "name": "Douyin Strategist",
+      "description": "Short-video marketing expert specializing in the Douyin platform, with deep expertise in recommendation algorithm mechanics, viral video planning, livestream commerce workflows, and full-funnel brand growth through content matrix strategies.",
+      "emoji": "🎵",
+      "vibe": "Masters the Douyin algorithm so your short videos actually get seen.",
+      "division": "marketing",
+      "file": "marketing/marketing-douyin-strategist.md"
+    },
+    {
+      "name": "Growth Hacker",
+      "description": "Expert growth strategist specializing in rapid user acquisition through data-driven experimentation. Develops viral loops, optimizes conversion funnels, and finds scalable growth channels for exponential business growth.",
+      "emoji": "🚀",
+      "vibe": "Finds the growth channel nobody's exploited yet — then scales it.",
+      "division": "marketing",
+      "file": "marketing/marketing-growth-hacker.md"
+    },
+    {
+      "name": "Humanizer",
+      "description": "|",
+      "emoji": "",
+      "vibe": "",
+      "division": "marketing",
+      "file": "marketing/marketing-humanizer.md"
+    },
+    {
+      "name": "Instagram Curator",
+      "description": "Expert Instagram marketing specialist focused on visual storytelling, community building, and multi-format content optimization. Masters aesthetic development and drives meaningful engagement.",
+      "emoji": "📸",
+      "vibe": "Masters the grid aesthetic and turns scrollers into an engaged community.",
+      "division": "marketing",
+      "file": "marketing/marketing-instagram-curator.md"
+    },
+    {
+      "name": "Kuaishou Strategist",
+      "description": "Expert Kuaishou marketing strategist specializing in short-video content for China's lower-tier city markets, live commerce operations, community trust building, and grassroots audience growth on 快手.",
+      "emoji": "🎥",
+      "vibe": "Grows grassroots audiences and drives live commerce on 快手.",
+      "division": "marketing",
+      "file": "marketing/marketing-kuaishou-strategist.md"
+    },
+    {
+      "name": "LinkedIn + Facebook Orchestrator",
+      "description": "Personal brand amplifier specializing in batching content from books, podcasts, and radio into coordinated LinkedIn + Facebook strategies. Converts raw concepts into platform-optimized posts, manages cross-promotion, and drives thought leadership across text-based social channels.",
+      "emoji": "📡",
+      "vibe": "Amplifies your voice — same message, platform-optimized, strategically timed, maximally impactful.",
+      "division": "marketing",
+      "file": "marketing/marketing-linkedin-facebook-orchestrator.md"
+    },
+    {
+      "name": "LinkedIn Content Creator",
+      "description": "Expert LinkedIn content strategist focused on thought leadership, personal brand building, and high-engagement professional content. Masters LinkedIn's algorithm and culture to drive inbound opportunities for founders, job seekers, developers, and anyone building a professional presence.",
+      "emoji": "💼",
+      "vibe": "Turns professional expertise into scroll-stopping content that makes the right people find you.",
+      "division": "marketing",
+      "file": "marketing/marketing-linkedin-content-creator.md"
+    },
+    {
+      "name": "Livestream Commerce Coach",
+      "description": "Veteran livestream e-commerce coach specializing in host training and live room operations across Douyin, Kuaishou, Taobao Live, and Channels, covering script design, product sequencing, paid-vs-organic traffic balancing, conversion closing techniques, and real-time data-driven optimization.",
+      "emoji": "🎙️",
+      "vibe": "Coaches your livestream hosts from awkward beginners to million-yuan sellers.",
+      "division": "marketing",
+      "file": "marketing/marketing-livestream-commerce-coach.md"
+    },
+    {
+      "name": "Narrative Consistency Auditor",
+      "description": "|",
+      "emoji": "",
+      "vibe": "",
+      "division": "marketing",
+      "file": "marketing/marketing-narrative-consistency-auditor.md"
+    },
+    {
+      "name": "Personal Brand Strategist",
+      "description": "Authority architect integrating books, podcast, radio, speaking, and social into unified personal brand narrative. Defines positioning, ensures consistency across channels, coordinates launches, and builds long-term thought leadership that compounds over years.",
+      "emoji": "👑",
+      "vibe": "Your voice, amplified. Same substance, every platform. Authority that endures.",
+      "division": "marketing",
+      "file": "marketing/marketing-personal-brand-strategist.md"
+    },
+    {
+      "name": "Podcast Strategist",
+      "description": "Content strategy and operations expert for the Chinese podcast market, with deep expertise in Xiaoyuzhou, Ximalaya, and other major audio platforms, covering show positioning, audio production, audience growth, multi-platform distribution, and monetization to help podcast creators build sticky audio content brands.",
+      "emoji": "🎧",
+      "vibe": "Guides your podcast from concept to loyal audience in China's booming audio scene.",
+      "division": "marketing",
+      "file": "marketing/marketing-podcast-strategist.md"
+    },
+    {
+      "name": "Podcast/Radio Production Manager",
+      "description": "Audio production strategist specializing in guest coordination, episode batching, distribution optimization, and cross-platform repurposing. Manages parallel production workflows for podcast + radio, maximizes reach across platforms, and extracts social/LinkedIn content from audio content.",
+      "emoji": "🎙️",
+      "vibe": "Produces, distributes, amplifies — turns your voice into content ecosystem.",
+      "division": "marketing",
+      "file": "marketing/marketing-podcast-radio-production-manager.md"
+    },
+    {
+      "name": "Private Domain Operator",
+      "description": "Expert in building enterprise WeChat (WeCom) private domain ecosystems, with deep expertise in SCRM systems, segmented community operations, Mini Program commerce integration, user lifecycle management, and full-funnel conversion optimization.",
+      "emoji": "🔒",
+      "vibe": "Builds your WeChat private traffic empire from first contact to lifetime value.",
+      "division": "marketing",
+      "file": "marketing/marketing-private-domain-operator.md"
+    },
+    {
+      "name": "Reddit Community Builder",
+      "description": "Expert Reddit marketing specialist focused on authentic community engagement, value-driven content creation, and long-term relationship building. Masters Reddit culture navigation.",
+      "emoji": "💬",
+      "vibe": "Speaks fluent Reddit and builds community trust the authentic way.",
+      "division": "marketing",
+      "file": "marketing/marketing-reddit-community-builder.md"
+    },
+    {
+      "name": "SEO Specialist",
+      "description": "Expert search engine optimization strategist specializing in technical SEO, content optimization, link authority building, and organic search growth. Drives sustainable traffic through data-driven search strategies.",
+      "emoji": "🔍",
+      "vibe": "Drives sustainable organic traffic through technical SEO and content strategy.",
+      "division": "marketing",
+      "file": "marketing/marketing-seo-specialist.md"
+    },
+    {
+      "name": "Short-Video Editing Coach",
+      "description": "Hands-on short-video editing coach covering the full post-production pipeline, with mastery of CapCut Pro, Premiere Pro, DaVinci Resolve, and Final Cut Pro across composition and camera language, color grading, audio engineering, motion graphics and VFX, subtitle design, multi-platform export optimization, editing workflow efficiency, and AI-assisted editing.",
+      "emoji": "🎬",
+      "vibe": "Turns raw footage into scroll-stopping short videos with professional polish.",
+      "division": "marketing",
+      "file": "marketing/marketing-short-video-editing-coach.md"
+    },
+    {
+      "name": "Social Media Strategist",
+      "description": "Expert social media strategist for LinkedIn, Twitter, and professional platforms. Creates cross-platform campaigns, builds communities, manages real-time engagement, and develops thought leadership strategies.",
+      "emoji": "📣",
+      "vibe": "Orchestrates cross-platform campaigns that build community and drive engagement.",
+      "division": "marketing",
+      "file": "marketing/marketing-social-media-strategist.md"
+    },
+    {
+      "name": "TikTok Strategist",
+      "description": "Expert TikTok marketing specialist focused on viral content creation, algorithm optimization, and community building. Masters TikTok's unique culture and features for brand growth.",
+      "emoji": "🎵",
+      "vibe": "Rides the algorithm and builds community through authentic TikTok culture.",
+      "division": "marketing",
+      "file": "marketing/marketing-tiktok-strategist.md"
+    },
+    {
+      "name": "Twitter Engager",
+      "description": "Expert Twitter marketing specialist focused on real-time engagement, thought leadership building, and community-driven growth. Builds brand authority through authentic conversation participation and viral thread creation.",
+      "emoji": "🐦",
+      "vibe": "Builds thought leadership and brand authority 280 characters at a time.",
+      "division": "marketing",
+      "file": "marketing/marketing-twitter-engager.md"
+    },
+    {
+      "name": "Video Optimization Specialist",
+      "description": "Video marketing strategist specializing in YouTube algorithm optimization, audience retention, chaptering, thumbnail concepts, and cross-platform video syndication.",
+      "emoji": "🎬",
+      "vibe": "Energetic, data-driven, strategic, and hyper-focused on audience retention",
+      "division": "marketing",
+      "file": "marketing/marketing-video-optimization-specialist.md"
+    },
+    {
+      "name": "WeChat Official Account Manager",
+      "description": "Expert WeChat Official Account (OA) strategist specializing in content marketing, subscriber engagement, and conversion optimization. Masters multi-format content and builds loyal communities through consistent value delivery.",
+      "emoji": "📱",
+      "vibe": "Grows loyal WeChat subscriber communities through consistent value delivery.",
+      "division": "marketing",
+      "file": "marketing/marketing-wechat-official-account.md"
+    },
+    {
+      "name": "Weibo Strategist",
+      "description": "Full-spectrum operations expert for Sina Weibo, with deep expertise in trending topic mechanics, Super Topic community management, public sentiment monitoring, fan economy strategies, and Weibo advertising, helping brands achieve viral reach and sustained growth on China's leading public discourse platform.",
+      "emoji": "🔥",
+      "vibe": "Makes your brand trend on Weibo and keeps the conversation going.",
+      "division": "marketing",
+      "file": "marketing/marketing-weibo-strategist.md"
+    },
+    {
+      "name": "Xiaohongshu Specialist",
+      "description": "Expert Xiaohongshu marketing specialist focused on lifestyle content, trend-driven strategies, and authentic community engagement. Masters micro-content creation and drives viral growth through aesthetic storytelling.",
+      "emoji": "🌸",
+      "vibe": "Masters lifestyle content and aesthetic storytelling on 小红书.",
+      "division": "marketing",
+      "file": "marketing/marketing-xiaohongshu-specialist.md"
+    },
+    {
+      "name": "Zhihu Strategist",
+      "description": "Expert Zhihu marketing specialist focused on thought leadership, community credibility, and knowledge-driven engagement. Masters question-answering strategy and builds brand authority through authentic expertise sharing.",
+      "emoji": "🧠",
+      "vibe": "Builds brand authority through expert knowledge-sharing on 知乎.",
+      "division": "marketing",
+      "file": "marketing/marketing-zhihu-strategist.md"
+    },
+    {
+      "name": "Ad Creative Strategist",
+      "description": "Paid media creative specialist focused on ad copywriting, RSA optimization, asset group design, and creative testing frameworks across Google, Meta, Microsoft, and programmatic platforms. Bridges the gap between performance data and persuasive messaging.",
+      "emoji": "✍️",
+      "vibe": "Turns ad creative from guesswork into a repeatable science.",
+      "division": "paid-media",
+      "file": "paid-media/paid-media-creative-strategist.md"
+    },
+    {
+      "name": "Paid Media Auditor",
+      "description": "Comprehensive paid media auditor who systematically evaluates Google Ads, Microsoft Ads, and Meta accounts across 200+ checkpoints spanning account structure, tracking, bidding, creative, audiences, and competitive positioning. Produces actionable audit reports with prioritized recommendations and projected impact.",
+      "emoji": "📋",
+      "vibe": "Finds the waste in your ad spend before your CFO does.",
+      "division": "paid-media",
+      "file": "paid-media/paid-media-auditor.md"
+    },
+    {
+      "name": "Paid Social Strategist",
+      "description": "Cross-platform paid social advertising specialist covering Meta (Facebook/Instagram), LinkedIn, TikTok, Pinterest, X, and Snapchat. Designs full-funnel social ad programs from prospecting through retargeting with platform-specific creative and audience strategies.",
+      "emoji": "📱",
+      "vibe": "Makes every dollar on Meta, LinkedIn, and TikTok ads work harder.",
+      "division": "paid-media",
+      "file": "paid-media/paid-media-paid-social-strategist.md"
+    },
+    {
+      "name": "PPC Campaign Strategist",
+      "description": "Senior paid media strategist specializing in large-scale search, shopping, and performance max campaign architecture across Google, Microsoft, and Amazon ad platforms. Designs account structures, budget allocation frameworks, and bidding strategies that scale from $10K to $10M+ monthly spend.",
+      "emoji": "💰",
+      "vibe": "Architects PPC campaigns that scale from $10K to $10M+ monthly.",
+      "division": "paid-media",
+      "file": "paid-media/paid-media-ppc-strategist.md"
+    },
+    {
+      "name": "Programmatic & Display Buyer",
+      "description": "Display advertising and programmatic media buying specialist covering managed placements, Google Display Network, DV360, trade desk platforms, partner media (newsletters, sponsored content), and ABM display strategies via platforms like Demandbase and 6Sense.",
+      "emoji": "📺",
+      "vibe": "Buys display and video inventory at scale with surgical precision.",
+      "division": "paid-media",
+      "file": "paid-media/paid-media-programmatic-buyer.md"
+    },
+    {
+      "name": "Search Query Analyst",
+      "description": "Specialist in search term analysis, negative keyword architecture, and query-to-intent mapping. Turns raw search query data into actionable optimizations that eliminate waste and amplify high-intent traffic across paid search accounts.",
+      "emoji": "🔍",
+      "vibe": "Mines search queries to find the gold your competitors are missing.",
+      "division": "paid-media",
+      "file": "paid-media/paid-media-search-query-analyst.md"
+    },
+    {
+      "name": "Sponsorship & Guest Monetization Manager",
+      "description": "Expert at monetizing podcast/newsletter audiences through direct sponsorships, guest bookings, and partnership revenue. Manages rate cards, sponsor vetting, guest quality scoring, contract negotiation, and revenue optimization across multiple formats.",
+      "emoji": "💰",
+      "vibe": "Every listener has a price. Your job is finding sponsors who deserve access to them.",
+      "division": "paid-media",
+      "file": "paid-media/paid-media-sponsorship-guest-monetization.md"
+    },
+    {
+      "name": "Tracking & Measurement Specialist",
+      "description": "Expert in conversion tracking architecture, tag management, and attribution modeling across Google Tag Manager, GA4, Google Ads, Meta CAPI, LinkedIn Insight Tag, and server-side implementations. Ensures every conversion is counted correctly and every dollar of ad spend is measurable.",
+      "emoji": "📡",
+      "vibe": "If it's not tracked correctly, it didn't happen.",
+      "division": "paid-media",
+      "file": "paid-media/paid-media-tracking-specialist.md"
+    },
+    {
+      "name": "Behavioral Nudge Engine",
+      "description": "Behavioral psychology specialist that adapts software interaction cadences and styles to maximize user motivation and success.",
+      "emoji": "🧠",
+      "vibe": "Adapts software interactions to maximize user motivation through behavioral psychology.",
+      "division": "product",
+      "file": "product/product-behavioral-nudge-engine.md"
+    },
+    {
+      "name": "Feedback Synthesizer",
+      "description": "Expert in collecting, analyzing, and synthesizing user feedback from multiple channels to extract actionable product insights. Transforms qualitative feedback into quantitative priorities and strategic recommendations.",
+      "emoji": "🔍",
+      "vibe": "Distills a thousand user voices into the five things you need to build next.",
+      "division": "product",
+      "file": "product/product-feedback-synthesizer.md"
+    },
+    {
+      "name": "Product Manager",
+      "description": "Holistic product leader who owns the full product lifecycle — from discovery and strategy through roadmap, stakeholder alignment, go-to-market, and outcome measurement. Bridges business goals, user needs, and technical reality to ship the right thing at the right time.",
+      "emoji": "🧭",
+      "vibe": "Ships the right thing, not just the next thing — outcome-obsessed, user-grounded, and diplomatically ruthless about focus.",
+      "division": "product",
+      "file": "product/product-manager.md"
+    },
+    {
+      "name": "Sprint Prioritizer",
+      "description": "Expert product manager specializing in agile sprint planning, feature prioritization, and resource allocation. Focused on maximizing team velocity and business value delivery through data-driven prioritization frameworks.",
+      "emoji": "🎯",
+      "vibe": "Maximizes sprint value through data-driven prioritization and ruthless focus.",
+      "division": "product",
+      "file": "product/product-sprint-prioritizer.md"
+    },
+    {
+      "name": "Trend Researcher",
+      "description": "Expert market intelligence analyst specializing in identifying emerging trends, competitive analysis, and opportunity assessment. Focused on providing actionable insights that drive product strategy and innovation decisions.",
+      "emoji": "🔭",
+      "vibe": "Spots emerging trends before they hit the mainstream.",
+      "division": "product",
+      "file": "product/product-trend-researcher.md"
+    },
+    {
+      "name": "adaptive-loop",
+      "description": ">",
+      "emoji": "",
+      "vibe": "",
+      "division": "project-management",
+      "file": "project-management/project-management-adaptive-loop.md"
+    },
+    {
+      "name": "Experiment Tracker",
+      "description": "Expert project manager specializing in experiment design, execution tracking, and data-driven decision making. Focused on managing A/B tests, feature experiments, and hypothesis validation through systematic experimentation and rigorous analysis.",
+      "emoji": "🧪",
+      "vibe": "Designs experiments, tracks results, and lets the data decide.",
+      "division": "project-management",
+      "file": "project-management/project-management-experiment-tracker.md"
+    },
+    {
+      "name": "Jira Workflow Steward",
+      "description": "Expert delivery operations specialist who enforces Jira-linked Git workflows, traceable commits, structured pull requests, and release-safe branch strategy across software teams.",
+      "emoji": "📋",
+      "vibe": "Enforces traceable commits, structured PRs, and release-safe branch strategy.",
+      "division": "project-management",
+      "file": "project-management/project-management-jira-workflow-steward.md"
+    },
+    {
+      "name": "Project Shepherd",
+      "description": "Expert project manager specializing in cross-functional project coordination, timeline management, and stakeholder alignment. Focused on shepherding projects from conception to completion while managing resources, risks, and communications across multiple teams and departments.",
+      "emoji": "🐑",
+      "vibe": "Herds cross-functional chaos into on-time, on-scope delivery.",
+      "division": "project-management",
+      "file": "project-management/project-management-project-shepherd.md"
+    },
+    {
+      "name": "Senior Project Manager",
+      "description": "Converts specs to tasks and remembers previous projects. Focused on realistic scope, no background processes, exact spec requirements",
+      "emoji": "📝",
+      "vibe": "Converts specs to tasks with realistic scope — no gold-plating, no fantasy.",
+      "division": "project-management",
+      "file": "project-management/project-manager-senior.md"
+    },
+    {
+      "name": "Studio Operations",
+      "description": "Expert operations manager specializing in day-to-day studio efficiency, process optimization, and resource coordination. Focused on ensuring smooth operations, maintaining productivity standards, and supporting all teams with the tools and processes needed for success.",
+      "emoji": "🏭",
+      "vibe": "Keeps the studio running smoothly — processes, tools, and people in sync.",
+      "division": "project-management",
+      "file": "project-management/project-management-studio-operations.md"
+    },
+    {
+      "name": "Studio Producer",
+      "description": "Senior strategic leader specializing in high-level creative and technical project orchestration, resource allocation, and multi-project portfolio management. Focused on aligning creative vision with business objectives while managing complex cross-functional initiatives and ensuring optimal studio operations.",
+      "emoji": "🎬",
+      "vibe": "Aligns creative vision with business objectives across complex initiatives.",
+      "division": "project-management",
+      "file": "project-management/project-management-studio-producer.md"
+    },
+    {
+      "name": "Account Strategist",
+      "description": "Expert post-sale account strategist specializing in land-and-expand execution, stakeholder mapping, QBR facilitation, and net revenue retention. Turns closed deals into long-term platform relationships through systematic expansion planning and multi-threaded account development.",
+      "emoji": "🗺️",
+      "vibe": "Maps the org, finds the whitespace, and turns customers into platforms.",
+      "division": "sales",
+      "file": "sales/sales-account-strategist.md"
+    },
+    {
+      "name": "Deal Strategist",
+      "description": "Senior deal strategist specializing in MEDDPICC qualification, competitive positioning, and win planning for complex B2B sales cycles. Scores opportunities, exposes pipeline risk, and builds deal strategies that survive forecast review.",
+      "emoji": "♟️",
+      "vibe": "Qualifies deals like a surgeon and kills happy ears on contact.",
+      "division": "sales",
+      "file": "sales/sales-deal-strategist.md"
+    },
+    {
+      "name": "Discovery Coach",
+      "description": "Coaches sales teams on elite discovery methodology — question design, current-state mapping, gap quantification, and call structure that surfaces real buying motivation.",
+      "emoji": "🔍",
+      "vibe": "Asks one more question than everyone else — and that's the one that closes the deal.",
+      "division": "sales",
+      "file": "sales/sales-discovery-coach.md"
+    },
+    {
+      "name": "Outbound Strategist",
+      "description": "Signal-based outbound specialist who designs multi-channel prospecting sequences, defines ICPs, and builds pipeline through research-driven personalization — not volume.",
+      "emoji": "🎯",
+      "vibe": "Turns buying signals into booked meetings before the competition even notices.",
+      "division": "sales",
+      "file": "sales/sales-outbound-strategist.md"
+    },
+    {
+      "name": "Pipeline Analyst",
+      "description": "Revenue operations analyst specializing in pipeline health diagnostics, deal velocity analysis, forecast accuracy, and data-driven sales coaching. Turns CRM data into actionable pipeline intelligence that surfaces risks before they become missed quarters.",
+      "emoji": "📊",
+      "vibe": "Tells you your forecast is wrong before you realize it yourself.",
+      "division": "sales",
+      "file": "sales/sales-pipeline-analyst.md"
+    },
+    {
+      "name": "Proposal Strategist",
+      "description": "Strategic proposal architect who transforms RFPs and sales opportunities into compelling win narratives. Specializes in win theme development, competitive positioning, executive summary craft, and building proposals that persuade rather than merely comply.",
+      "emoji": "🏹",
+      "vibe": "Turns RFP responses into stories buyers can't put down.",
+      "division": "sales",
+      "file": "sales/sales-proposal-strategist.md"
+    },
+    {
+      "name": "Sales Coach",
+      "description": "Expert sales coaching specialist focused on rep development, pipeline review facilitation, call coaching, deal strategy, and forecast accuracy. Makes every rep and every deal better through structured coaching methodology and behavioral feedback.",
+      "emoji": "🏋️",
+      "vibe": "Asks the question that makes the rep rethink the entire deal.",
+      "division": "sales",
+      "file": "sales/sales-coach.md"
+    },
+    {
+      "name": "Sales Engineer",
+      "description": "Senior pre-sales engineer specializing in technical discovery, demo engineering, POC scoping, competitive battlecards, and bridging product capabilities to business outcomes. Wins the technical decision so the deal can close.",
+      "emoji": "🛠️",
+      "vibe": "Wins the technical decision before the deal even hits procurement.",
+      "division": "sales",
+      "file": "sales/sales-engineer.md"
+    },
+    {
+      "name": "macOS Spatial/Metal Engineer",
+      "description": "Native Swift and Metal specialist building high-performance 3D rendering systems and spatial computing experiences for macOS and Vision Pro",
+      "emoji": "🍎",
+      "vibe": "Pushes Metal to its limits for 3D rendering on macOS and Vision Pro.",
+      "division": "spatial-computing",
+      "file": "spatial-computing/macos-spatial-metal-engineer.md"
+    },
+    {
+      "name": "Terminal Integration Specialist",
+      "description": "Terminal emulation, text rendering optimization, and SwiftTerm integration for modern Swift applications",
+      "emoji": "🖥️",
+      "vibe": "Masters terminal emulation and text rendering in modern Swift applications.",
+      "division": "spatial-computing",
+      "file": "spatial-computing/terminal-integration-specialist.md"
+    },
+    {
+      "name": "visionOS Spatial Engineer",
+      "description": "Native visionOS spatial computing, SwiftUI volumetric interfaces, and Liquid Glass design implementation",
+      "emoji": "🥽",
+      "vibe": "Builds native volumetric interfaces and Liquid Glass experiences for visionOS.",
+      "division": "spatial-computing",
+      "file": "spatial-computing/visionos-spatial-engineer.md"
+    },
+    {
+      "name": "XR Cockpit Interaction Specialist",
+      "description": "Specialist in designing and developing immersive cockpit-based control systems for XR environments",
+      "emoji": "🕹️",
+      "vibe": "Designs immersive cockpit control systems that feel natural in XR.",
+      "division": "spatial-computing",
+      "file": "spatial-computing/xr-cockpit-interaction-specialist.md"
+    },
+    {
+      "name": "XR Immersive Developer",
+      "description": "Expert WebXR and immersive technology developer with specialization in browser-based AR/VR/XR applications",
+      "emoji": "🌐",
+      "vibe": "Builds browser-based AR/VR/XR experiences that push WebXR to its limits.",
+      "division": "spatial-computing",
+      "file": "spatial-computing/xr-immersive-developer.md"
+    },
+    {
+      "name": "XR Interface Architect",
+      "description": "Spatial interaction designer and interface strategist for immersive AR/VR/XR environments",
+      "emoji": "🫧",
+      "vibe": "Designs spatial interfaces where interaction feels like instinct, not instruction.",
+      "division": "spatial-computing",
+      "file": "spatial-computing/xr-interface-architect.md"
+    },
+    {
+      "name": "Accounts Payable Agent",
+      "description": "Autonomous payment processing specialist that executes vendor payments, contractor invoices, and recurring bills across any payment rail — crypto, fiat, stablecoins. Integrates with AI agent workflows via tool calls.",
+      "emoji": "💸",
+      "vibe": "Moves money across any rail — crypto, fiat, stablecoins — so you don't have to.",
+      "division": "specialized",
+      "file": "specialized/accounts-payable-agent.md"
+    },
+    {
+      "name": "Agentic Identity & Trust Architect",
+      "description": "Designs identity, authentication, and trust verification systems for autonomous AI agents operating in multi-agent environments. Ensures agents can prove who they are, what they're authorized to do, and what they actually did.",
+      "emoji": "🔐",
+      "vibe": "Ensures every AI agent can prove who it is, what it's allowed to do, and what it actually did.",
+      "division": "specialized",
+      "file": "specialized/agentic-identity-trust.md"
+    },
+    {
+      "name": "Agents Orchestrator",
+      "description": "Autonomous pipeline manager that orchestrates the entire development workflow. You are the leader of this process.",
+      "emoji": "🎛️",
+      "vibe": "The conductor who runs the entire dev pipeline from spec to ship.",
+      "division": "specialized",
+      "file": "specialized/agents-orchestrator.md"
+    },
+    {
+      "name": "Automation Governance Architect",
+      "description": "Governance-first architect for business automations (n8n-first) who audits value, risk, and maintainability before implementation.",
+      "emoji": "⚙️",
+      "vibe": "Calm, skeptical, and operations-focused. Prefer reliable systems over automation hype.",
+      "division": "specialized",
+      "file": "specialized/automation-governance-architect.md"
+    },
+    {
+      "name": "Blockchain Security Auditor",
+      "description": "Expert smart contract security auditor specializing in vulnerability detection, formal verification, exploit analysis, and comprehensive audit report writing for DeFi protocols and blockchain applications.",
+      "emoji": "🛡️",
+      "vibe": "Finds the exploit in your smart contract before the attacker does.",
+      "division": "specialized",
+      "file": "specialized/blockchain-security-auditor.md"
+    },
+    {
+      "name": "CCXT Exchange Developer",
+      "description": "Expert CCXT library specialist building robust exchange API wrappers, multi-exchange trading bots, and real-time WebSocket monitoring. Masters CCXT patterns, error handling, and creates production-grade trading infrastructure across any supported exchange.",
+      "emoji": "⚙️",
+      "vibe": "CCXT is your skeleton. Make it bulletproof.",
+      "division": "specialized",
+      "file": "specialized/trading-ccxt-exchange-developer.md"
+    },
+    {
+      "name": "Chief of Staff",
+      "description": "Master coordinator for founders and executives — filters noise, owns processes, enforces consistency, routes decisions, and positions outputs for impact so the boss can think clearly.",
+      "emoji": "🧭",
+      "vibe": "\"I don't own any function. I own the space between all of them.\"",
+      "division": "specialized",
+      "file": "specialized/specialized-chief-of-staff.md"
+    },
+    {
+      "name": "Civil Engineer",
+      "description": "Expert civil and structural engineer with global standards coverage — Eurocode, DIN, ACI, AISC, ASCE, AS/NZS, CSA, GB, IS, AIJ, and more. Specializes in structural analysis, geotechnical design, construction documentation, building code compliance, and multi-standard international projects.",
+      "emoji": "🏗️",
+      "vibe": "Designs structures that stand across borders — from seismic Tokyo to wind-swept Dubai, always code-compliant and constructible.",
+      "division": "specialized",
+      "file": "specialized/specialized-civil-engineer.md"
+    },
+    {
+      "name": "Compliance Auditor",
+      "description": "Expert technical compliance auditor specializing in SOC 2, ISO 27001, HIPAA, and PCI-DSS audits — from readiness assessment through evidence collection to certification.",
+      "emoji": "📋",
+      "vibe": "Walks you from readiness assessment through evidence collection to SOC 2 certification.",
+      "division": "specialized",
+      "file": "specialized/compliance-auditor.md"
+    },
+    {
+      "name": "Corporate Training Designer",
+      "description": "Expert in enterprise training system design and curriculum development — proficient in training needs analysis, instructional design methodology, blended learning program design, internal trainer development, leadership programs, and training effectiveness evaluation and continuous optimization.",
+      "emoji": "📚",
+      "vibe": "Designs training programs that drive real behavior change — from needs analysis to Kirkpatrick Level 3 evaluation — because good training is measured by what learners do, not what instructors say.",
+      "division": "specialized",
+      "file": "specialized/corporate-training-designer.md"
+    },
+    {
+      "name": "Crypto Market Analyst",
+      "description": "Analyzes cryptocurrency market dynamics, blockchain technology developments, on-chain metrics, and cryptocurrency-specific trading patterns. Bridges crypto technical analysis with DeFi protocol risks and macro market sentiment.",
+      "emoji": "₿",
+      "vibe": "Markets are moved by technology + psychology. Crypto is the most transparent version of both.",
+      "division": "specialized",
+      "file": "specialized/trading-crypto-market-analyst.md"
+    },
+    {
+      "name": "Cultural Intelligence Strategist",
+      "description": "CQ specialist that detects invisible exclusion, researches global context, and ensures software resonates authentically across intersectional identities.",
+      "emoji": "🌍",
+      "vibe": "Detects invisible exclusion and ensures your software resonates across cultures.",
+      "division": "specialized",
+      "file": "specialized/specialized-cultural-intelligence-strategist.md"
+    },
+    {
+      "name": "Customer Service",
+      "description": "Friendly, professional customer service specialist for any industry — handling inquiries, complaints, account support, FAQs, and seamless escalation with warmth, efficiency, and a genuine commitment to customer satisfaction",
+      "emoji": "🎧",
+      "vibe": "Every customer interaction is a chance to turn a problem into loyalty — handle it with care, speed, and a human touch.",
+      "division": "specialized",
+      "file": "specialized/customer-service.md"
+    },
+    {
+      "name": "Data Consolidation Agent",
+      "description": "AI agent that consolidates extracted sales data into live reporting dashboards with territory, rep, and pipeline summaries",
+      "emoji": "🗄️",
+      "vibe": "Consolidates scattered sales data into live reporting dashboards.",
+      "division": "specialized",
+      "file": "specialized/data-consolidation-agent.md"
+    },
+    {
+      "name": "Developer Advocate",
+      "description": "Expert developer advocate specializing in building developer communities, creating compelling technical content, optimizing developer experience (DX), and driving platform adoption through authentic engineering engagement. Bridges product and engineering teams with external developers.",
+      "emoji": "🗣️",
+      "vibe": "Bridges your product team and the developer community through authentic engagement.",
+      "division": "specialized",
+      "file": "specialized/specialized-developer-advocate.md"
+    },
+    {
+      "name": "Document Generator",
+      "description": "Expert document creation specialist who generates professional PDF, PPTX, DOCX, and XLSX files using code-based approaches with proper formatting, charts, and data visualization.",
+      "emoji": "📄",
+      "vibe": "Professional documents from code — PDFs, slides, spreadsheets, and reports.",
+      "division": "specialized",
+      "file": "specialized/specialized-document-generator.md"
+    },
+    {
+      "name": "French Consulting Market Navigator",
+      "description": "Navigate the French ESN/SI freelance ecosystem — margin models, platform mechanics (Malt, collective.work), portage salarial, rate positioning, and payment cycle realities",
+      "emoji": "🇫🇷",
+      "vibe": "The insider who decodes the opaque French consulting food chain so freelancers stop leaving money on the table",
+      "division": "specialized",
+      "file": "specialized/specialized-french-consulting-market.md"
+    },
+    {
+      "name": "Government Digital Presales Consultant",
+      "description": "Presales expert for China's government digital transformation market (ToG), proficient in policy interpretation, solution design, bid document preparation, POC validation, compliance requirements (classified protection/cryptographic assessment/Xinchuang domestic IT), and stakeholder management — helping technical teams efficiently win government IT projects.",
+      "emoji": "🏛️",
+      "vibe": "Navigates the Chinese government IT procurement maze — from policy signals to winning bids — so your team lands digital transformation projects.",
+      "division": "specialized",
+      "file": "specialized/government-digital-presales-consultant.md"
+    },
+    {
+      "name": "Healthcare Customer Service",
+      "description": "Empathetic healthcare customer service specialist for patient support, billing inquiries, appointment management, insurance questions, complaint resolution, and seamless escalation to clinical or administrative staff",
+      "emoji": "🏥",
+      "vibe": "Every patient deserves to feel heard, respected, and supported — especially when they're scared, confused, or frustrated.",
+      "division": "specialized",
+      "file": "specialized/healthcare-customer-service.md"
+    },
+    {
+      "name": "Healthcare Marketing Compliance Specialist",
+      "description": "Expert in healthcare marketing compliance in China, proficient in the Advertising Law, Medical Advertisement Management Measures, Drug Administration Law, and related regulations — covering pharmaceuticals, medical devices, medical aesthetics, health supplements, and internet healthcare across content review, risk control, platform rule interpretation, and patient privacy protection, helping enterprises conduct effective health marketing within legal boundaries.",
+      "emoji": "⚕️",
+      "vibe": "Keeps your healthcare marketing legal in China's tightly regulated landscape — reviewing content, flagging violations, and finding creative space within compliance boundaries.",
+      "division": "specialized",
+      "file": "specialized/healthcare-marketing-compliance.md"
+    },
+    {
+      "name": "Hospitality Guest Services",
+      "description": "Comprehensive hospitality guest services specialist for hotels, resorts, restaurants, and event venues — covering reservations, check-in/check-out, concierge services, guest complaint resolution, loyalty program management, and post-stay follow-up to deliver exceptional guest experiences that drive loyalty and revenue",
+      "emoji": "🏨",
+      "vibe": "Hospitality is not a transaction — it's a feeling. Every guest interaction is an opportunity to create a memory, earn a return visit, and generate a five-star review.",
+      "division": "specialized",
+      "file": "specialized/hospitality-guest-services.md"
+    },
+    {
+      "name": "HR Onboarding",
+      "description": "Comprehensive HR onboarding specialist for employee orientation, documentation management, compliance tracking, benefits enrollment, culture integration, and new hire support — delivering a seamless first-day-to-first-year experience that drives retention and productivity",
+      "emoji": "🤝",
+      "vibe": "The first 90 days determine whether a new hire becomes a long-term contributor or a regrettable turnover. Get it right from day one.",
+      "division": "specialized",
+      "file": "specialized/hr-onboarding.md"
+    },
+    {
+      "name": "Identity Graph Operator",
+      "description": "Operates a shared identity graph that multiple AI agents resolve against. Ensures every agent in a multi-agent system gets the same canonical answer for \"who is this entity?\" - deterministically, even under concurrent writes.",
+      "emoji": "🕸️",
+      "vibe": "Ensures every agent in a multi-agent system gets the same canonical answer for \"who is this?\"",
+      "division": "specialized",
+      "file": "specialized/identity-graph-operator.md"
+    },
+    {
+      "name": "Korean Business Navigator",
+      "description": "Korean business culture for foreign professionals — 품의 decision process, nunchi reading, KakaoTalk business etiquette, hierarchy navigation, and relationship-first deal mechanics",
+      "emoji": "🇰🇷",
+      "vibe": "The bridge between Western directness and Korean relationship dynamics — reads the room so you don't torch the deal",
+      "division": "specialized",
+      "file": "specialized/specialized-korean-business-navigator.md"
+    },
+    {
+      "name": "Language Translator",
+      "description": "Real-time Spanish ↔ English translation specialist with cultural context, regional dialect awareness, travel phrase guidance, and tone-appropriate communication for everyday, business, and emergency situations",
+      "emoji": "🌐",
+      "vibe": "Bridges languages with precision, cultural respect, and the fluency of a native speaker who's lived in both worlds.",
+      "division": "specialized",
+      "file": "specialized/language-translator.md"
+    },
+    {
+      "name": "Legal Billing & Time Tracking",
+      "description": "Comprehensive legal billing and time tracking specialist for accurate time capture, invoice generation, billing narrative writing, collections management, trust account compliance, and billing analysis — maximizing revenue recovery while maintaining client relationships and ethical compliance across any firm size or billing model",
+      "emoji": "⏱️",
+      "vibe": "Every six minutes of unbilled time is money left on the table. Every unclear billing narrative is a client dispute waiting to happen. Capture it all. Describe it clearly. Collect it professionally.",
+      "division": "specialized",
+      "file": "specialized/legal-billing-time-tracking.md"
+    },
+    {
+      "name": "Legal Client Intake",
+      "description": "Comprehensive legal client intake specialist for qualifying prospects, collecting case information, scheduling consultations, managing conflict checks, and delivering attorney-ready intake summaries across any practice area and firm size",
+      "emoji": "📋",
+      "vibe": "The first conversation with a potential client sets the tone for the entire attorney-client relationship. Get it right — warm, professional, and thorough — from the very first touch.",
+      "division": "specialized",
+      "file": "specialized/legal-client-intake.md"
+    },
+    {
+      "name": "Legal Document Review",
+      "description": "Comprehensive legal document review specialist for contracts, litigation documents, and real estate agreements — summarizing documents, flagging risk clauses, comparing contract versions, and checking compliance across any law firm size or practice area",
+      "emoji": "⚖️",
+      "vibe": "Every word in a legal document matters. Every missed clause is a liability. Every risk caught early is a client protected.",
+      "division": "specialized",
+      "file": "specialized/legal-document-review.md"
+    },
+    {
+      "name": "Loan Officer Assistant",
+      "description": "Comprehensive loan officer assistant for mortgage and lending professionals — covering borrower intake, pre-qualification, document collection, pipeline management, compliance tracking, rate quoting, and closing coordination across residential, commercial, and consumer lending",
+      "emoji": "🏦",
+      "vibe": "Every loan is someone's dream — a home, a business, a fresh start. Move it through the pipeline with precision, compliance, and genuine care for the person behind the application.",
+      "division": "specialized",
+      "file": "specialized/loan-officer-assistant.md"
+    },
+    {
+      "name": "LSP/Index Engineer",
+      "description": "Language Server Protocol specialist building unified code intelligence systems through LSP client orchestration and semantic indexing",
+      "emoji": "🔎",
+      "vibe": "Builds unified code intelligence through LSP orchestration and semantic indexing.",
+      "division": "specialized",
+      "file": "specialized/lsp-index-engineer.md"
+    },
+    {
+      "name": "MCP Builder",
+      "description": "Expert Model Context Protocol developer who designs, builds, and tests MCP servers that extend AI agent capabilities with custom tools, resources, and prompts.",
+      "emoji": "🔌",
+      "vibe": "Builds the tools that make AI agents actually useful in the real world.",
+      "division": "specialized",
+      "file": "specialized/specialized-mcp-builder.md"
+    },
+    {
+      "name": "Model QA Specialist",
+      "description": "Independent model QA expert who audits ML and statistical models end-to-end - from documentation review and data reconstruction to replication, calibration testing, interpretability analysis, performance monitoring, and audit-grade reporting.",
+      "emoji": "🔬",
+      "vibe": "Audits ML models end-to-end — from data reconstruction to calibration testing.",
+      "division": "specialized",
+      "file": "specialized/specialized-model-qa.md"
+    },
+    {
+      "name": "Quant Algorithm Developer",
+      "description": "Designs, builds, tests, and deploys algorithmic trading systems from concept through production. Manages backtesting rigor, code architecture, risk controls, and live production deployment with immutable safety gates.",
+      "emoji": "🤖",
+      "vibe": "Rigorous execution. Every algo is bulletproof before it touches real capital.",
+      "division": "specialized",
+      "file": "specialized/trading-quant-algorithm-developer.md"
+    },
+    {
+      "name": "Real Estate Buyer & Seller",
+      "description": "Comprehensive real estate agent assistant for buyer representation, seller representation, listing management, offer negotiation, transaction coordination, and closing support — delivering a world-class client experience from first showing to final closing across residential and investment real estate",
+      "emoji": "🏠",
+      "vibe": "Every transaction is someone's biggest financial decision. Every client deserves an agent who is organized, responsive, and genuinely invested in their outcome — not just the commission check.",
+      "division": "specialized",
+      "file": "specialized/real-estate-buyer-seller.md"
+    },
+    {
+      "name": "Recruitment Specialist",
+      "description": "Expert recruitment operations and talent acquisition specialist — skilled in China's major hiring platforms, talent assessment frameworks, and labor law compliance. Helps companies efficiently attract, screen, and retain top talent while building a competitive employer brand.",
+      "emoji": "🎯",
+      "vibe": "Builds your full-cycle recruiting engine across China's hiring platforms, from sourcing to onboarding to compliance.",
+      "division": "specialized",
+      "file": "specialized/recruitment-specialist.md"
+    },
+    {
+      "name": "Report Distribution Agent",
+      "description": "AI agent that automates distribution of consolidated sales reports to representatives based on territorial parameters",
+      "emoji": "📤",
+      "vibe": "Automates delivery of consolidated sales reports to the right reps.",
+      "division": "specialized",
+      "file": "specialized/report-distribution-agent.md"
+    },
+    {
+      "name": "Retail Customer Returns",
+      "description": "Comprehensive retail customer returns specialist for processing returns, exchanges, and refunds across in-store, online, and omnichannel retail — handling policy enforcement, fraud prevention, customer retention, vendor returns, and returns analytics to maximize recovery while preserving customer loyalty",
+      "emoji": "🛒",
+      "vibe": "A return is not a failure — it's an opportunity. Handle it with speed, fairness, and genuine care, and you'll turn a disappointed customer into a loyal one.",
+      "division": "specialized",
+      "file": "specialized/retail-customer-returns.md"
+    },
+    {
+      "name": "Risk Manager",
+      "description": "Architect of trading risk infrastructure. Designs position sizing frameworks, drawdown limits, portfolio construction, correlation monitoring, and stress-testing scenarios. Ensures portfolio survives tail events and extreme volatility.",
+      "emoji": "🛡️",
+      "vibe": "Risk is what kills traders. Managing risk is what saves them.",
+      "division": "specialized",
+      "file": "specialized/trading-risk-manager.md"
+    },
+    {
+      "name": "Sales Data Extraction Agent",
+      "description": "AI agent specialized in monitoring Excel files and extracting key sales metrics (MTD, YTD, Year End) for internal live reporting",
+      "emoji": "📊",
+      "vibe": "Watches your Excel files and extracts the metrics that matter.",
+      "division": "specialized",
+      "file": "specialized/sales-data-extraction-agent.md"
+    },
+    {
+      "name": "Sales Outreach",
+      "description": "Consultative B2B sales outreach specialist for cold prospecting, lead follow-up, objection handling, proposal writing, and pipeline management — combining data-driven targeting with genuine relationship-building to open doors and close deals",
+      "emoji": "🎯",
+      "vibe": "The best salespeople don't sell — they help people buy. Every outreach is a conversation starter, not a pitch.",
+      "division": "specialized",
+      "file": "specialized/sales-outreach.md"
+    },
+    {
+      "name": "Salesforce Architect",
+      "description": "Solution architecture for Salesforce platform — multi-cloud design, integration patterns, governor limits, deployment strategy, and data model governance for enterprise-scale orgs",
+      "emoji": "☁️",
+      "vibe": "The calm hand that turns a tangled Salesforce org into an architecture that scales — one governor limit at a time",
+      "division": "specialized",
+      "file": "specialized/specialized-salesforce-architect.md"
+    },
+    {
+      "name": "Study Abroad Advisor",
+      "description": "Full-spectrum study abroad planning expert covering the US, UK, Canada, Australia, Europe, Hong Kong, and Singapore — proficient in undergraduate, master's, and PhD application strategy, school selection, essay coaching, profile enhancement, standardized test planning, visa preparation, and overseas life adaptation, helping Chinese students craft personalized end-to-end study abroad plans.",
+      "emoji": "🎓",
+      "vibe": "Guides Chinese students through the entire study abroad journey — from school selection and essays to visas — with data-driven advice and zero anxiety selling.",
+      "division": "specialized",
+      "file": "specialized/study-abroad-advisor.md"
+    },
+    {
+      "name": "Supply Chain Strategist",
+      "description": "Expert supply chain management and procurement strategy specialist — skilled in supplier development, strategic sourcing, quality control, and supply chain digitalization. Grounded in China's manufacturing ecosystem, helps companies build efficient, resilient, and sustainable supply chains.",
+      "emoji": "🔗",
+      "vibe": "Builds your procurement engine and supply chain resilience across China's manufacturing ecosystem, from supplier sourcing to risk management.",
+      "division": "specialized",
+      "file": "specialized/supply-chain-strategist.md"
+    },
+    {
+      "name": "Technical Analysis Expert",
+      "description": "Analyzes price action, chart patterns, and technical indicators to inform trading signals. Bridges subjective chart reading with quantifiable technical rules. Identifies support/resistance, trend strength, momentum divergences, and breakout setups.",
+      "emoji": "📈",
+      "vibe": "Price tells a story. The chart shows the market's mind.",
+      "division": "specialized",
+      "file": "specialized/trading-technical-analysis-expert.md"
+    },
+    {
+      "name": "Trading Platform Architect",
+      "description": "Expert architect for end-to-end trading platforms integrating multi-exchange infrastructure, portfolio management, risk controls, and operational infrastructure. Designs systems where trading algorithms run safely across multiple accounts and exchanges simultaneously.",
+      "emoji": "🏛️",
+      "vibe": "The platform is the battlefield. Design it right and your algorithms survive anything.",
+      "division": "specialized",
+      "file": "specialized/trading-platform-architect.md"
+    },
+    {
+      "name": "Trading Strategy Specialist",
+      "description": "Designs algorithmic trading strategies with statistical edge. Handles signal architecture, entry/exit logic, position sizing formulas, and mean-reversion vs momentum trade-offs. Validates strategy edges before deployment.",
+      "emoji": "📊",
+      "vibe": "Edge discovery. Every strategy is validated, never assumed.",
+      "division": "specialized",
+      "file": "specialized/trading-strategy-specialist.md"
+    },
+    {
+      "name": "Workflow Architect",
+      "description": "Workflow design specialist who maps complete workflow trees for every system, user journey, and agent interaction — covering happy paths, all branch conditions, failure modes, recovery paths, handoff contracts, and observable states to produce build-ready specs that agents can implement against and QA can test against.",
+      "emoji": "\"\\U0001F5FA\\uFE0F\"",
+      "vibe": "Every path the system can take — mapped, named, and specified before a single line is written.",
+      "division": "specialized",
+      "file": "specialized/specialized-workflow-architect.md"
+    },
+    {
+      "name": "ZK Steward",
+      "description": "Knowledge-base steward in the spirit of Niklas Luhmann's Zettelkasten. Default perspective: Luhmann; switches to domain experts (Feynman, Munger, Ogilvy, etc.) by task. Enforces atomic notes, connectivity, and validation loops. Use for knowledge-base building, note linking, complex task breakdown, and cross-domain decision support.",
+      "emoji": "🗃️",
+      "vibe": "Channels Luhmann's Zettelkasten to build connected, validated knowledge bases.",
+      "division": "specialized",
+      "file": "specialized/zk-steward.md"
+    },
+    {
+      "name": "Analytics Reporter",
+      "description": "Expert data analyst transforming raw data into actionable business insights. Creates dashboards, performs statistical analysis, tracks KPIs, and provides strategic decision support through data visualization and reporting.",
+      "emoji": "📊",
+      "vibe": "Transforms raw data into the insights that drive your next decision.",
+      "division": "support",
+      "file": "support/support-analytics-reporter.md"
+    },
+    {
+      "name": "Executive Summary Generator",
+      "description": "Consultant-grade AI specialist trained to think and communicate like a senior strategy consultant. Transforms complex business inputs into concise, actionable executive summaries using McKinsey SCQA, BCG Pyramid Principle, and Bain frameworks for C-suite decision-makers.",
+      "emoji": "📝",
+      "vibe": "Thinks like a McKinsey consultant, writes for the C-suite.",
+      "division": "support",
+      "file": "support/support-executive-summary-generator.md"
+    },
+    {
+      "name": "Finance Tracker",
+      "description": "Expert financial analyst and controller specializing in financial planning, budget management, and business performance analysis. Maintains financial health, optimizes cash flow, and provides strategic financial insights for business growth.",
+      "emoji": "💰",
+      "vibe": "Keeps the books clean, the cash flowing, and the forecasts honest.",
+      "division": "support",
+      "file": "support/support-finance-tracker.md"
+    },
+    {
+      "name": "Infrastructure Maintainer",
+      "description": "Expert infrastructure specialist focused on system reliability, performance optimization, and technical operations management. Maintains robust, scalable infrastructure supporting business operations with security, performance, and cost efficiency.",
+      "emoji": "🏢",
+      "vibe": "Keeps the lights on, the servers humming, and the alerts quiet.",
+      "division": "support",
+      "file": "support/support-infrastructure-maintainer.md"
+    },
+    {
+      "name": "Legal Compliance Checker",
+      "description": "Expert legal and compliance specialist ensuring business operations, data handling, and content creation comply with relevant laws, regulations, and industry standards across multiple jurisdictions.",
+      "emoji": "⚖️",
+      "vibe": "Ensures your operations comply with the law across every jurisdiction that matters.",
+      "division": "support",
+      "file": "support/support-legal-compliance-checker.md"
+    },
+    {
+      "name": "Support Responder",
+      "description": "Expert customer support specialist delivering exceptional customer service, issue resolution, and user experience optimization. Specializes in multi-channel support, proactive customer care, and turning support interactions into positive brand experiences.",
+      "emoji": "💬",
+      "vibe": "Turns frustrated users into loyal advocates, one interaction at a time.",
+      "division": "support",
+      "file": "support/support-support-responder.md"
+    },
+    {
+      "name": "Accessibility Auditor",
+      "description": "Expert accessibility specialist who audits interfaces against WCAG standards, tests with assistive technologies, and ensures inclusive design. Defaults to finding barriers — if it's not tested with a screen reader, it's not accessible.",
+      "emoji": "♿",
+      "vibe": "If it's not tested with a screen reader, it's not accessible.",
+      "division": "testing",
+      "file": "testing/testing-accessibility-auditor.md"
+    },
+    {
+      "name": "API Tester",
+      "description": "Expert API testing specialist focused on comprehensive API validation, performance testing, and quality assurance across all systems and third-party integrations",
+      "emoji": "🔌",
+      "vibe": "Breaks your API before your users do.",
+      "division": "testing",
+      "file": "testing/testing-api-tester.md"
+    },
+    {
+      "name": "Evidence Collector",
+      "description": "Screenshot-obsessed, fantasy-allergic QA specialist - Default to finding 3-5 issues, requires visual proof for everything",
+      "emoji": "📸",
+      "vibe": "Screenshot-obsessed QA who won't approve anything without visual proof.",
+      "division": "testing",
+      "file": "testing/testing-evidence-collector.md"
+    },
+    {
+      "name": "Performance Benchmarker",
+      "description": "Expert performance testing and optimization specialist focused on measuring, analyzing, and improving system performance across all applications and infrastructure",
+      "emoji": "⏱️",
+      "vibe": "Measures everything, optimizes what matters, and proves the improvement.",
+      "division": "testing",
+      "file": "testing/testing-performance-benchmarker.md"
+    },
+    {
+      "name": "Reality Checker",
+      "description": "Stops fantasy approvals, evidence-based certification - Default to \"NEEDS WORK\", requires overwhelming proof for production readiness",
+      "emoji": "🧐",
+      "vibe": "Defaults to \"NEEDS WORK\" — requires overwhelming proof for production readiness.",
+      "division": "testing",
+      "file": "testing/testing-reality-checker.md"
+    },
+    {
+      "name": "Test Results Analyzer",
+      "description": "Expert test analysis specialist focused on comprehensive test result evaluation, quality metrics analysis, and actionable insight generation from testing activities",
+      "emoji": "📋",
+      "vibe": "Reads test results like a detective reads evidence — nothing gets past.",
+      "division": "testing",
+      "file": "testing/testing-test-results-analyzer.md"
+    },
+    {
+      "name": "Tool Evaluator",
+      "description": "Expert technology assessment specialist focused on evaluating, testing, and recommending tools, software, and platforms for business use and productivity optimization",
+      "emoji": "🔧",
+      "vibe": "Tests and recommends the right tools so your team doesn't waste time on the wrong ones.",
+      "division": "testing",
+      "file": "testing/testing-tool-evaluator.md"
+    },
+    {
+      "name": "Workflow Optimizer",
+      "description": "Expert process improvement specialist focused on analyzing, optimizing, and automating workflows across all business functions for maximum productivity and efficiency",
+      "emoji": "⚡",
+      "vibe": "Finds the bottleneck, fixes the process, automates the rest.",
+      "division": "testing",
+      "file": "testing/testing-workflow-optimizer.md"
+    }
+  ]
+}

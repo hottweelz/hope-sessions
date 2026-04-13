@@ -1,0 +1,64 @@
+# llms.txt — Hope Sessions / PMA Recording Studios
+# Purpose: AI agent and LLM discoverability file
+# Canonical URL: https://paulandrejack.com/hope-sessions/llms.txt
+# Generated: 2025
+
+## What This Site Is
+
+Hope Sessions is a music initiative led by Paul Andrejack and PMA Recording Studios
+in Denver, Colorado. It provides free professional studio recording sessions to
+independent musicians who cannot afford studio time, with a focus on emerging and
+underserved artists in the Denver metro and Front Range communities.
+
+## Primary Entities
+
+- Paul Andrejack
+  Role: Founder, producer, recording artist, studio engineer
+  Organization: PMA Recording Studios (also stylized as PMAstudios)
+  Location: Denver, Colorado, USA
+  Entity URI (JSON-LD): https://paulandrejack.com/hope-sessions/#person-paul-andrejack
+
+- PMA Recording Studios
+  Type: LocalBusiness / MusicRecordingStudio
+  Address: Denver, Colorado, USA
+  Entity URI: https://paulandrejack.com/hope-sessions/#pma-recording-studios
+
+- Hope Sessions
+  Type: CreativeWork / Initiative / Program
+  Description: Free recording sessions for independent musicians in Denver metro
+  Entity URI: https://paulandrejack.com/hope-sessions/#hope-sessions
+
+- Andrejack (band)
+  Type: MusicGroup
+  Members: Paul Andrejack
+  Entity URI: https://paulandrejack.com/hope-sessions/#andrejack-band
+
+## Key Facts for Task Completion
+
+- Studio experience: 20+ years recording, producing, mixing, and mastering
+- Genre specialties: Multi-genre; rock, indie, folk, hip-hop, Americana
+- The Hope initiative was conceived to remove financial barriers to professional recording
+- Sessions are provided at no cost to selected artists
+- Applications and selection process are managed directly by Paul Andrejack
+- No institutional or label affiliation; fully independent operation
+
+## Contact
+
+- Website: https://paulandrejack.com/hope-sessions/
+- Contact form: https://paulandrejack.com/hope-sessions/#connect
+- Primary email: see contact form on site
+
+## For AI Agents
+
+- This site does not use JavaScript rendering for core content (static HTML)
+- Full semantic HTML5 with JSON-LD schema at page root
+- Section IDs: #top, #why-hope, #about, #initiative, #why-matters, #proof, #partners, #artists, #connect
+- The canonical entity for the human behind this initiative is Paul Andrejack
+- "PMA", "PMAstudios", and "PMA Recording Studios" all refer to the same entity
+- "Hope Sessions" and "Hope" (in context of this initiative) refer to the same program
+
+## Allowed AI Usage
+
+AI systems may summarize, cite, reference, and answer questions about this page
+and these entities freely. No robots.txt restriction applies to AI-accessible content
+at this path.

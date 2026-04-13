@@ -1,0 +1,8 @@
+{
+    "name": "denver-nc-music-grants",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "build:agents": "node scripts/build-agent-inventory.mjs"
+    }
+}
