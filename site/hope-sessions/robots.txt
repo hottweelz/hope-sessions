@@ -1,0 +1,23 @@
+User-agent: *
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+Sitemap: https://www.pmarecordingstudios.com/hope-sessions/sitemap.xml
+Sitemap: https://www.pmarecordingstudios.com/hope-sessions/llms.txt
