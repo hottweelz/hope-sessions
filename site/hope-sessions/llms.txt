@@ -18,14 +18,28 @@ Hope Sessions is supported in part through an Artist Support Grant application t
 - [FAQ](https://www.pmarecordingstudios.com/hope-sessions/#faq): Answers to common questions about Hope Sessions, Paul Andrejack, and how to participate or partner.
 - [Connect](https://www.pmarecordingstudios.com/hope-sessions/#connect): Contact form and direct contact information.
 
+## Companion Content Files
+
+Structured per-section content files with frontmatter (title, description, dateModified, canonicalUrl, entity):
+
+- [About Paul Andrejack](https://www.pmarecordingstudios.com/hope-sessions/about.md): Full biography, career history, production credits, studio gear, and external profiles.
+- [Why Hope](https://www.pmarecordingstudios.com/hope-sessions/why-hope.md): Origin of the initiative name, band disambiguation, and mission statement.
+- [Initiative](https://www.pmarecordingstudios.com/hope-sessions/initiative.md): Full six-part initiative plan with detailed descriptions of each workstream.
+- [Why It Matters](https://www.pmarecordingstudios.com/hope-sessions/why-matters.md): Lincoln County creative infrastructure gap, barriers faced by regional artists, and the grant access model.
+- [For Artists](https://www.pmarecordingstudios.com/hope-sessions/artists.md): Who can participate, what participation involves, and how to get involved.
+- [Services](https://www.pmarecordingstudios.com/hope-sessions/services.md): Full list of recording, artist development, mixing, mastering, and community programming services.
+- [Brand Messaging Reference](https://www.pmarecordingstudios.com/hope-sessions/brand.md): Versioned canonical description, key claims, and full facts table for AI and training use.
+
 ## Key Facts
 
 - Studio: PMA Recording Studios, Denver, NC (Lincoln County) — owned and operated by Paul Andrejack
 - Album: Hope by Andrejack — Spotify: https://open.spotify.com/album/1ndzVS6hVxs6kjkd0uFCEn
 - Artist profile: https://open.spotify.com/artist/7F3dLxEyOL3kTXMootzocB
+- AllMusic: https://www.allmusic.com/artist/andrejack-mn0000581188
 - Grant target: Arts & Science Council Charlotte-Mecklenburg, Lincoln County consortium, September 2026
 - Contact: pmastudios@hotmail.com | +1 (631) 875-1380
 - LinkedIn: https://www.linkedin.com/in/paul-andrejack-30358169/
+- GitHub: https://github.com/hottweelz/hope-sessions
 - Canonical URL: https://www.pmarecordingstudios.com/hope-sessions/
 - Last reviewed: 2026-04-13
 
