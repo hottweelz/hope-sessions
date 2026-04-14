@@ -1146,7 +1146,7 @@ textarea.form-control {
     line-height: 1.75;
 }
 
-.faq-answer p + p {
+.faq-answer p+p {
     margin-block-start: var(--space-3);
 }
 

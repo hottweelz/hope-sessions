@@ -60,7 +60,20 @@
         "sameAs": [
           "https://www.linkedin.com/in/paul-andrejack-30358169/",
           "https://open.spotify.com/artist/7F3dLxEyOL3kTXMootzocB",
+          "https://www.allmusic.com/artist/andrejack-mn0000581188",
           "https://pmastudios.com"
+        ],
+        "hasCredential": [
+          {
+            "@type": "EducationalOccupationalCredential",
+            "name": "Recording Artist — Internet Records",
+            "credentialCategory": "Professional Recording Artist",
+            "recognizedBy": {
+              "@type": "Organization",
+              "name": "Internet Records",
+              "sameAs": "https://www.allmusic.com/artist/andrejack-mn0000581188"
+            }
+          }
         ],
         "knowsAbout": [
           "Music Production",
@@ -99,6 +112,15 @@
         "name": "Andrejack",
         "description": "Independent music group fronted by Paul Andrejack, based in Denver, North Carolina. Known for the album Hope.",
         "genre": ["Rock", "Indie Rock"],
+        "sameAs": [
+          "https://www.allmusic.com/artist/andrejack-mn0000581188",
+          "https://open.spotify.com/artist/7F3dLxEyOL3kTXMootzocB"
+        ],
+        "album": {
+          "@type": "MusicAlbum",
+          "name": "Hope",
+          "url": "https://open.spotify.com/album/1ndzVS6hVxs6kjkd0uFCEn"
+        },
         "member": { "@id": "https://www.pmarecordingstudios.com/hope-sessions/#paul-andrejack" }
       },
       {
@@ -117,6 +139,19 @@
             "addressCountry": "US"
           }
         }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.pmarecordingstudios.com/hope-sessions/#service",
+        "name": "Hope Sessions — Recording & Artist Development",
+        "serviceType": ["Music Recording", "Artist Development", "Music Production", "Audio Mixing", "Audio Mastering"],
+        "provider": { "@id": "https://www.pmarecordingstudios.com/#pma-recording-studios" },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "Lincoln County, North Carolina"
+        },
+        "description": "Professional recording studio sessions, artist development, music production mentorship, audio mixing, and mastering for independent artists and community organizations in Lincoln County and the greater Denver, NC area.",
+        "url": "https://www.pmarecordingstudios.com/hope-sessions/"
       }
     ]
   }
@@ -269,6 +304,11 @@
                             aria-label="Listen to Hope by Andrejack on Spotify (opens in a new tab)">Album:
                             <em>Hope</em> &mdash; Andrejack<span class="visually-hidden"> (opens in a new
                                 tab)</span></a>
+                        <a class="proof-pill" href="https://www.allmusic.com/artist/andrejack-mn0000581188"
+                            target="_blank" rel="noreferrer"
+                            aria-label="Andrejack on AllMusic (opens in a new tab)">AllMusic: Andrejack<span
+                                class="visually-hidden"> (opens in a new tab)</span></a>
+                        <span class="proof-pill">20+ years &mdash; recording, production &amp; live sound</span>
                     </div>
                 </div>
 
@@ -296,10 +336,8 @@
             <div class="shell shell--narrow">
                 <p class="eyebrow">Why Hope</p>
                 <h2 id="why-hope-heading">The name came from the music. Not the other way around.</h2>
-                <p>Paul Andrejack and the band Andrejack recorded an album called <em>Hope</em>. That&rsquo;s where
-                    this initiative gets its name &mdash; from a real body of work that already existed, already had
-                    an audience, and already carried a creative identity. The initiative follows the music. That
-                    matters.</p>
+                <p>Paul Andrejack &mdash; leading the rock band that shares his surname, simply called Andrejack (the band is a distinct entity from Paul Andrejack the individual) &mdash; recorded an album called <em>Hope</em>. That&rsquo;s where this initiative gets its name: from a real body of work that already existed, already had an audience, and already carried a creative identity. The initiative follows the music. That matters.</p>
+                <h3>What does Hope Sessions actually build for artists who have no studio access?</h3>
                 <p>The mission from there is concrete: use a working professional studio as something more than a
                     private resource. Denver, NC has talented people who can&rsquo;t access professional gear,
                     can&rsquo;t afford hourly studio rates, and don&rsquo;t have relationships with experienced
@@ -353,7 +391,7 @@
                         <li>Long Island, NY origins &mdash; bands, studio, albums, and live touring from the ground up
                         </li>
                         <li>Multiple European tours as a recording and performing artist</li>
-                        <li>Internet Records recording artist &mdash; frontman of Andrejack</li>
+                        <li>Internet Records recording artist &mdash; frontman of <a href="https://www.allmusic.com/artist/andrejack-mn0000581188" target="_blank" rel="noreferrer">Andrejack on AllMusic<span class="visually-hidden"> (opens in a new tab)</span></a></li>
                         <li>Co-writer with Grammy Award winners Mark Mangold and Mark Gatz</li>
                         <li>Collaborated with The Alessi Brothers (McCartney / Lennon collaborators)</li>
                         <li>Music placement: Food Network / Bobby Flay</li>
@@ -379,46 +417,32 @@
                     <article class="initiative-card">
                         <div class="initiative-card__marker" aria-hidden="true">01</div>
                         <h3>New Work Recording</h3>
-                        <p>New original songs extending the world of <em>Hope</em> &mdash; tracked with discipline,
-                            finished to a real standard, released. Not demos held for later. Finished music that earns
-                            its place.</p>
+                        <p>New original songs extending the world of <em>Hope</em> &mdash; tracked with discipline, finished to a real standard, released as completed work. Not demos shelved for later review, not rough cuts waiting for the right budget. Finished music that earns its place. The sessions opening Hope Sessions as a formal initiative are focused recording projects at PMA Recording Studios in Denver, NC: new songwriting by Paul Andrejack, production decisions made with the same discipline the album <em>Hope</em> was built with, and finished recordings ready for independent release. This phase establishes the creative and operational baseline for everything that follows &mdash; working proof that the studio produces releasable recordings at a professional level and that Paul Andrejack is making strong new work right now.</p>
                     </article>
                     <article class="initiative-card">
                         <div class="initiative-card__marker" aria-hidden="true">02</div>
                         <h3>All-Level Artist Development</h3>
-                        <p>Working with artists wherever they are &mdash; first studio visit or tenth album &mdash; to
-                            get rough ideas to something finished and release-ready. No assumed baseline. No shortcuts
-                            on the result.</p>
+                        <p>Working with artists wherever they are &mdash; first studio visit, first original song, or tenth album &mdash; to get rough ideas to something finished and release-ready. No assumed baseline. No shortcuts on the result. Artist development at Hope Sessions means different things for different artists: for a first-timer, it might mean understanding the signal chain, building a scratch track, and finding what the song actually needs before committing to a full session. For a more experienced performer, it means applying professional production and engineering judgment to work they already know is strong. What doesn&rsquo;t change is the standard for the finished result &mdash; every artist leaves with something that can exist in the world, not a rough draft waiting for a better day.</p>
                     </article>
                     <article class="initiative-card">
                         <div class="initiative-card__marker" aria-hidden="true">03</div>
                         <h3>Removing Barriers to Entry</h3>
-                        <p>Professional studio time and experienced guidance cost money most independent artists
-                            don&rsquo;t have. Grant support lets Hope Sessions remove that wall for selected artists
-                            &mdash; so what determines who participates is the strength of the idea, not the size of
-                            the budget.</p>
+                        <p>Professional studio time and experienced guidance cost money most independent artists in Lincoln County don&rsquo;t have. A single day of professional recording at a major-market studio runs several hundred dollars per session &mdash; before mixing, mastering, or any production costs are factored in. Grant support lets Hope Sessions remove that financial wall for selected artists, covering session time, equipment access, engineering hours, and production costs that would otherwise end the project before it starts. What determines who participates is the strength of the idea, not the size of the budget. That&rsquo;s not a positioning statement &mdash; it&rsquo;s a structural commitment backed by how the initiative is funded. The cost barrier is real, and removing it changes what&rsquo;s possible for artists in this region.</p>
                     </article>
                     <article class="initiative-card">
                         <div class="initiative-card__marker" aria-hidden="true">04</div>
                         <h3>Community Creative Infrastructure</h3>
-                        <p>A long-term model for connecting professional recording support to schools, nonprofits, and
-                            community organizations in Lincoln County. The kind of creative infrastructure that&rsquo;s
-                            routine in larger cities and rare here.</p>
+                        <p>A long-term model for connecting professional recording support to schools, nonprofits, and community organizations in Lincoln County. The kind of creative infrastructure that&rsquo;s routine in cities like Charlotte or Raleigh &mdash; where students can access recording labs, arts programs, and working professionals through established institutional networks &mdash; is rare or nonexistent in Denver, NC. Hope Sessions is the foundation for building that infrastructure locally. In practice, this means after-school music production programs, workshop series, mentorship sessions with schools and faith communities, and story-centered music projects with nonprofits. The professional studio, the experience, and the relationships already exist here. This phase formalizes the community access model that converts those existing private resources into a public creative asset for Lincoln County.</p>
                     </article>
                     <article class="initiative-card">
                         <div class="initiative-card__marker" aria-hidden="true">05</div>
                         <h3>Why Grants Fund This Work</h3>
-                        <p>Independent artists rarely have the resources to pay professional studio rates. Grant
-                            funding covers what they can&rsquo;t &mdash; session time, equipment, mixing, mastering,
-                            and artist support costs that would otherwise close the door before it opens.</p>
+                        <p>Independent artists rarely have the resources to pay professional studio rates. A single recording session with a qualified engineer in a properly equipped room costs more than most working artists in Lincoln County can budget for a month of creative work &mdash; let alone for a full project requiring multiple sessions, mixing, mastering, and release preparation. Grant funding covers what they can&rsquo;t: session time, equipment access, engineering and production support, and the artist development costs that make the difference between a strong idea staying rough and becoming a finished, releasable recording. Arts grants exist specifically to close this gap &mdash; converting professional infrastructure into community access. Hope Sessions is a direct match for that purpose, and the Arts &amp; Science Council Lincoln County consortium is the right funding partner for this region.</p>
                     </article>
                     <article class="initiative-card">
                         <div class="initiative-card__marker" aria-hidden="true">06</div>
                         <h3>Investing in Lincoln County Youth</h3>
-                        <p>Young people in Lincoln County deserve a reason to see a creative future here, close to
-                            home. Hope Sessions is committed to programming that puts professional studio access,
-                            mentorship, and musical education directly in front of local youth &mdash; giving the next
-                            generation something real to build toward in the community they grew up in.</p>
+                        <p>Young people in Lincoln County deserve a reason to see a creative future here, close to home. Most youth in this region have never been inside a professional recording studio, spoken with a working producer or engineer, or had the chance to make original music in a real room with professional equipment. That gap has consequences: talented young people leave, or stop developing, or never discover a path that was available somewhere else all along. Hope Sessions is committed to programming that puts professional studio access, mentorship, and musical education directly in front of local youth &mdash; workshops, sessions, and educational collaborations with Lincoln County schools and community organizations giving the next generation something real to build toward inside the community they already call home.</p>
                     </article>
                 </div>
             </div>
@@ -488,29 +512,21 @@
                     <article class="proof-card" aria-label="Working studio infrastructure">
                         <div class="proof-card__body">
                             <h3>Working Studio Infrastructure</h3>
-                            <p>PMA Recording Studios in Denver, NC is an active professional recording environment. The
-                                infrastructure is already running &mdash; not a proposal to build something new, but a
-                                commitment to use what exists with greater purpose and public benefit.
-                            </p>
+                            <p>PMA Recording Studios in Denver, NC is an active professional recording environment running analog and digital signal chains. The studio operates a Tascam DM-3200 and Mackie consoles alongside outboard gear from Focusrite, Avalon, Lexicon, TC Electronic, Slate, Waves, Pultec, and Fairchild. This is not a proposal to build something new. The infrastructure is already running &mdash; regularly used for serious recording work by Paul Andrejack and collaborating artists. Hope Sessions is a commitment to use what exists with greater purpose: opening a working professional room to artists in Lincoln County who currently have no path to it, with guidance from someone who brings 20+ years of engineering, production, and live sound experience to every session.</p>
                         </div>
                     </article>
 
                     <article class="proof-card" aria-label="Grant documentation package">
                         <div class="proof-card__body">
                             <h3>Grant Documentation</h3>
-                            <p>Work samples, project documentation, and a full evidence package are assembled as part of
-                                the Artist Support Grant application targeting the Arts &amp; Science Council
-                                Charlotte-Mecklenburg consortium for Lincoln County, with a September 2026 submission
-                                deadline.</p>
+                            <p>Work samples, project documentation, a narrative history of Paul Andrejack&rsquo;s professional credits, and a full evidence package are assembled as part of the Artist Support Grant application targeting the Arts &amp; Science Council Charlotte-Mecklenburg consortium for Lincoln County, with a September 2026 submission deadline. The application documents the existing creative infrastructure at PMA Recording Studios, the artistic foundation established by the album <em>Hope</em> by Andrejack, and the community access model Hope Sessions is built to deliver. The documentation is designed to show not just what Hope Sessions intends to do, but what it is already doing &mdash; a working initiative seeking institutional support to serve more people.</p>
                         </div>
                     </article>
 
                     <article class="proof-card" aria-label="Credits and production experience">
                         <div class="proof-card__body">
                             <h3>Credits &amp; Experience</h3>
-                            <p>Reach out directly for Paul Andrejack&rsquo;s full production credits, engineering
-                                history, artist development experience, and work samples relevant to your partnership
-                                or collaboration inquiry.</p>
+                            <p>Paul Andrejack&rsquo;s production and engineering history includes co-writing credits with Grammy Award winners Mark Mangold (Cher, Jordin Sparks) and Mark Gatz (<em>The Cosby Show</em>), collaboration with The Alessi Brothers (Paul McCartney and John Lennon collaborators), music placement on the Food Network&rsquo;s Bobby Flay show, and studio consulting for Bakithi Kumalo (bassist for Paul Simon, Josh Groban, and Gloria Estefan) and Kent Marcum (composer for Harpo Productions). He operated PRO AUDIO SOUND &mdash; a PA rental company serving the LI Music Festival and Long Island venues &mdash; for five years. Full production credits, engineering history, and work samples are available on request.</p>
                         </div>
                     </article>
 
@@ -569,31 +585,65 @@
                     <details class="faq-item">
                         <summary class="faq-question">What is Hope Sessions?</summary>
                         <div class="faq-answer">
-                            <p>Hope Sessions is a recording initiative led by Paul Andrejack at PMA Recording Studios in Denver, North Carolina. It begins with new original music extending the artistic world of the album <em>Hope</em> by the band Andrejack &mdash; and builds toward something broader: professional studio access, artist development, mentorship, and musical education for artists and youth in Lincoln County who currently have no path to it. The initiative is supported in part through an Artist Support Grant application to the Arts &amp; Science Council Charlotte-Mecklenburg consortium for Lincoln County, with a September 2026 submission deadline.</p>
+                            <p>Hope Sessions is a recording initiative led by Paul Andrejack at PMA Recording Studios in
+                                Denver, North Carolina. It begins with new original music extending the artistic world
+                                of the album <em>Hope</em> by the band Andrejack &mdash; and builds toward something
+                                broader: professional studio access, artist development, mentorship, and musical
+                                education for artists and youth in Lincoln County who currently have no path to it. The
+                                initiative is supported in part through an Artist Support Grant application to the Arts
+                                &amp; Science Council Charlotte-Mecklenburg consortium for Lincoln County, with a
+                                September 2026 submission deadline.</p>
                         </div>
                     </details>
                     <details class="faq-item">
                         <summary class="faq-question">Who is Paul Andrejack?</summary>
                         <div class="faq-answer">
-                            <p>Paul Andrejack is a recording artist, producer, audio engineer, and studio owner based in Denver, North Carolina. He built his career on Long Island, New York &mdash; constructing his own studio, fronting and collaborating with multiple bands, recording and releasing albums, and completing multiple European tours as a working artist. He is an Internet Records recording artist who has co-written with Grammy Award winners Mark Mangold (Cher, Jordin Sparks) and Mark Gatz (<em>The Cosby Show</em>), collaborated with The Alessi Brothers (McCartney and Lennon collaborators), and consulted for Bakithi Kumalo (bassist for Paul Simon) and Kent Marcum (composer for Harpo Productions). He owns and operates PMA Recording Studios in Denver, NC.</p>
+                            <p>Paul Andrejack is a recording artist, producer, audio engineer, and studio owner based in
+                                Denver, North Carolina. He built his career on Long Island, New York &mdash;
+                                constructing his own studio, fronting and collaborating with multiple bands, recording
+                                and releasing albums, and completing multiple European tours as a working artist. He is
+                                an Internet Records recording artist who has co-written with Grammy Award winners Mark
+                                Mangold (Cher, Jordin Sparks) and Mark Gatz (<em>The Cosby Show</em>), collaborated with
+                                The Alessi Brothers (McCartney and Lennon collaborators), and consulted for Bakithi
+                                Kumalo (bassist for Paul Simon) and Kent Marcum (composer for Harpo Productions). He
+                                owns and operates PMA Recording Studios in Denver, NC.</p>
                         </div>
                     </details>
                     <details class="faq-item">
                         <summary class="faq-question">How can artists participate in Hope Sessions?</summary>
                         <div class="faq-answer">
-                            <p>Artists interested in participating can reach out through the contact form below or by emailing <a href="mailto:pmastudios@hotmail.com">pmastudios@hotmail.com</a> directly. No prior recording experience is required. Hope Sessions is designed for artists at every skill level &mdash; from first-time studio visitors and beginner songwriters to experienced performers who have never had access to a professional room. The standard for participation is the quality of the idea, not the length of an artist&rsquo;s credits. Artists based in the Lincoln County or greater Denver, NC area are especially encouraged to reach out.</p>
+                            <p>Artists interested in participating can reach out through the contact form below or by
+                                emailing <a href="mailto:pmastudios@hotmail.com">pmastudios@hotmail.com</a> directly. No
+                                prior recording experience is required. Hope Sessions is designed for artists at every
+                                skill level &mdash; from first-time studio visitors and beginner songwriters to
+                                experienced performers who have never had access to a professional room. The standard
+                                for participation is the quality of the idea, not the length of an artist&rsquo;s
+                                credits. Artists based in the Lincoln County or greater Denver, NC area are especially
+                                encouraged to reach out.</p>
                         </div>
                     </details>
                     <details class="faq-item">
                         <summary class="faq-question">Can beginners or first-time studio visitors apply?</summary>
                         <div class="faq-answer">
-                            <p>Yes. Hope Sessions is explicitly designed for artists at every skill level. Beginners, intermediate performers, and seasoned musicians are all welcome. You do not need prior studio experience, a recording history, or professional credits to participate. If you have original ideas &mdash; songs, concepts, or material you have been developing &mdash; and you are based in the Lincoln County or greater Denver, NC area, start a conversation. The only requirement is an honest one.</p>
+                            <p>Yes. Hope Sessions is explicitly designed for artists at every skill level. Beginners,
+                                intermediate performers, and seasoned musicians are all welcome. You do not need prior
+                                studio experience, a recording history, or professional credits to participate. If you
+                                have original ideas &mdash; songs, concepts, or material you have been developing
+                                &mdash; and you are based in the Lincoln County or greater Denver, NC area, start a
+                                conversation. The only requirement is an honest one.</p>
                         </div>
                     </details>
                     <details class="faq-item">
-                        <summary class="faq-question">How can schools, nonprofits, or community organizations partner with Hope Sessions?</summary>
+                        <summary class="faq-question">How can schools, nonprofits, or community organizations partner
+                            with Hope Sessions?</summary>
                         <div class="faq-answer">
-                            <p>Schools, churches, nonprofits, arts organizations, and community groups in Lincoln County and the broader region can partner with Hope Sessions to bring professional studio access, music education, and artist development programming to their communities. Partnership can take many forms: after-school music production programs, workshops, mentorship sessions, or story-centered music projects. To start a conversation, contact Hope Sessions at <a href="mailto:pmastudios@hotmail.com">pmastudios@hotmail.com</a> or use the contact form below.</p>
+                            <p>Schools, churches, nonprofits, arts organizations, and community groups in Lincoln County
+                                and the broader region can partner with Hope Sessions to bring professional studio
+                                access, music education, and artist development programming to their communities.
+                                Partnership can take many forms: after-school music production programs, workshops,
+                                mentorship sessions, or story-centered music projects. To start a conversation, contact
+                                Hope Sessions at <a href="mailto:pmastudios@hotmail.com">pmastudios@hotmail.com</a> or
+                                use the contact form below.</p>
                         </div>
                     </details>
                 </div><!-- /.faq-list -->
@@ -746,11 +796,12 @@
                     <li><a href="#proof">Proof</a></li>
                     <li><a href="#partners">Partners</a></li>
                     <li><a href="#connect">Connect</a></li>
+                    <li><a href="https://github.com/hottweelz/hope-sessions" target="_blank" rel="noreferrer">Source on GitHub<span class="visually-hidden"> (opens in a new tab)</span></a></li>
                 </ul>
             </nav>
 
             <p class="fine-print footer-copy">
-                &copy; 2026 PMA Recording Studios. Hope Sessions initiative by Paul Andrejack.
+                &copy; 2026 PMA Recording Studios. Hope Sessions initiative by Paul Andrejack. &middot; Last reviewed: April 2026
             </p>
 
             <nav class="footer-legal" aria-label="Legal and policy links">
